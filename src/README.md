@@ -1,9 +1,8 @@
 # GCMMA OC
 A self-contained C++ implementation of OC and GCMMA using MPI and PETSc
 # OC and GCMMA
-*A self-contained C++ implementation of OC and GCMMA.*
+*A self-contained C++ implementation of OC and GCMMA.* inspired by jdumas [6]
 
-[![Build Status](https://travis-ci.com/jdumas/mma.svg?token=euzAY1sxC114E8ufzcZx&branch=master)](https://travis-ci.com/jdumas/mma)
 
 This repository contains single-file C++ implementations of GCMMA and OC using MPI and PETSc, as described in [1,2,3,5].
 The code in this repository is based on an original code by Niels Aage and Bendsøe , using the subproblem solver described in [4,5].
@@ -22,3 +21,4 @@ The code in this repository is based on an original code by Niels Aage and Bends
 4. Aage, N., & Lazarov, B. S. (2013). Parallel framework for topology optimization using the method of moving asymptotes. Structural and Multidisciplinary Optimization, 47(4), 493–505. https://doi.org/10.1007/s00158-012-0869-2
 5. M.P Bendsøe. Optimal shape design as a material distribution problem.
 Structural Optimization, 1 :192–202, 1995
+6. [![Build Status](https://travis-ci.com/jdumas/mma.svg?token=euzAY1sxC114E8ufzcZx&branch=master)](https://travis-ci.com/jdumas/mma)
