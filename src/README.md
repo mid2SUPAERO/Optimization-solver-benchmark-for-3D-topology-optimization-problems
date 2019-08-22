@@ -1,7 +1,7 @@
 # GCMMA OC
-A self-contained C++ implementation of MMA and GCMMA
+A self-contained C++ implementation of OC and GCMMA using MPI and PETSc
 # OC and GCMMA
-*A self-contained C++ implementation of MMA and GCMMA.*
+*A self-contained C++ implementation of OC and GCMMA.*
 
 [![Build Status](https://travis-ci.com/jdumas/mma.svg?token=euzAY1sxC114E8ufzcZx&branch=master)](https://travis-ci.com/jdumas/mma)
 
