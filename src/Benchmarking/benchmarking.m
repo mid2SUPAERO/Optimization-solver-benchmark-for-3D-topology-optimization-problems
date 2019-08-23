@@ -113,8 +113,8 @@ end
 [m,IND]   = min(MatH(:,:,1));
 [m0,IND0] = min(MatH(:,:,2));
 [m1,IND1] = min(MatH(:,:,3));
-% we affect the value of the rest of the evaluation of a problem 
-% for solver we have succeed to solver the problem before maximum
+% we affect the value of m to rest of the evaluation of a problem 
+% that have succeed to solve the problem before maximum
 % evaluation np
 for ii=1:120
     MatH(IND(ii):end,ii,1)  = m(ii);
