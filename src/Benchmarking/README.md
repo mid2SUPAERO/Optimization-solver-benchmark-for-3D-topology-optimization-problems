@@ -10,5 +10,4 @@
 #studies conducted using this subroutine.
 #
 #Performance profiles were originally introduced in
-#Benchmarking optimization software with performance profiles, E.D. Dolan and J.J. More', 
-#Mathematical Programming, 91 (2002), 201--213.
+#Benchmarking optimization software with performance profiles, E.D. Dolan and J.J. More', Mathematical Programming, 91 (2002), 201--213.
