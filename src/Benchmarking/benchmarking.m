@@ -1,24 +1,24 @@
-## Example Benchmarking 
-# Summary of example objective
-#we present here un example of how to produce a benchmarking as described in:
-#Benchmarking Derivative-Free Optimization Algorithms
-#Jorge J. More' and Stefan M. Wild
-#SIAM J. Optimization, Vol. 20 (1), pp.172-191, 2009.
-#
-#The latest version of this subroutine is always available at
-#http://www.mcs.anl.gov/~more/dfo/
-#The authors would appreciate feedback and experiences from numerical
-#studies conducted using this subroutine.
-#
-#Performance profiles were originally introduced in
-#     Benchmarking optimization software with performance profiles,
-#     E.D. Dolan and J.J. More', 
-#     Mathematical Programming, 91 (2002), 201--213.
-## Section 1 Build up to read Data files from a solver plug in TopOpt PETSc
-# Description of first code block
-#read file
+%% Example Benchmarking 
+% Summary of example objective
+% we present here un example of how to produce a benchmarking as described in:
+% Benchmarking Derivative-Free Optimization Algorithms
+% Jorge J. More' and Stefan M. Wild
+% SIAM J. Optimization, Vol. 20 (1), pp.172-191, 2009.
+%
+% The latest version of this subroutine is always available at
+% http://www.mcs.anl.gov/~more/dfo/
+% The authors would appreciate feedback and experiences from numerical
+% studies conducted using this subroutine.
+%
+% Performance profiles were originally introduced in
+% Benchmarking optimization software with performance profiles,
+% E.D. Dolan and J.J. More', 
+% Mathematical Programming, 91 (2002), 201--213.
+%% Section 1 Build up to read Data files from a solver plug in TopOpt PETSc
+% Description of first code block
+% read file
 NOM_Txt = []; % should contained a list of files name ( e.g. ["out_1.txt";"out_2.txt";....])
-# reading file.txt into Matlab framework
+% reading file.txt into Matlab framework
 np = 120; % number of problems
 neval = 200; % number maximum evaluations
 ns = 3; % number of solvers 
@@ -69,11 +69,11 @@ for kk=1:np
 end    
     
 
-## Section 2 Post treatement
-#we check if there is violation or not of the contraints
-# counters
+%% Section 2 Post treatement
+% we check if there is violation or not of the contraints
+% counters
 cpt = 0; cpt1 = 0; cpt2 = 0;
-#we store the indices of where there is no violation of the contraints
+% we store the indices of where there is no violation of the contraints
 indp = []; indp1 = []; indp2 = [];
 for ii=1:120 
     for i=1:200
@@ -93,9 +93,9 @@ for ii=1:120
    
 end
 
-#build up H : matrice we will need as parameter for Performance profiles 
-#and Data profiles
-#here, we extract the min of every problem for each solver
+% build up H : matrice we will need as parameter for Performance profiles 
+% and Data profiles
+% here, we extract the min of every problem for each solver
 for ii=1:120 
     for i=1:200
         if (MatH(i,ii,1) == 0)
@@ -113,16 +113,16 @@ end
 [m,IND]   = min(MatH(:,:,1));
 [m0,IND0] = min(MatH(:,:,2));
 [m1,IND1] = min(MatH(:,:,3));
-#we affect the value the rest of the evaluation of a problem 
-#for solver we have succeed to solver the problem before maximum
-#evaluation np
+% we affect the value the rest of the evaluation of a problem 
+% for solver we have succeed to solver the problem before maximum
+% evaluation np
 for ii=1:120
     MatH(IND(ii):end,ii,1)  = m(ii);
     MatH(IND0(ii):end,ii,2) = m0(ii);
     MatH(IND1(ii):end,ii,3) = m1(ii);
 end   
-#build N : complexity of each problem depending on 
-#number of elements in the mesh for each problem
+% build N : complexity of each problem depending on 
+% number of elements in the mesh for each problem
 n1 = 88*88*176;
 n2 = 128*64*64;
 n3 = n1;
@@ -131,41 +131,41 @@ Nelxyz = [n1;n2;n3];
 %
 N = zeros(np,1);
 %
-#Cantilever
+% Cantilever
 N(1:15)  = n1+1;
 N(16:30) = n2+1;
 N(31:45) = n3+1;
-#Michell
+% Michell
 N(46:55) = n1+1;
 N(56:65) = n2+1;
 N(66:75) = n3+1;
-#Wheel
+% Wheel
 N(76:90)   = n1+1;
 N(91:105)  = n2+1;
 N(106:120) = n3+1;
-## Section 2 Build up of Performance profiles and Data profiles
-#Performance profiles :
-#Performance profiles were originally introduced in
-#Benchmarking optimization software with performance profiles,
-#E.D. Dolan and J.J. More', 
-#Mathematical Programming, 91 (2002), 201--213.
+%% Section 2 Build up of Performance profiles and Data profiles
+% Performance profiles :
+% Performance profiles were originally introduced in
+% Benchmarking optimization software with performance profiles,
+% E.D. Dolan and J.J. More', 
+% Mathematical Programming, 91 (2002), 201--213.
 %
-#The subroutine returns a handle to lines in a performance profile.
+% The subroutine returns a handle to lines in a performance profile.
 %
-#H contains a three dimensional array of function values.
-#H(f,p,s) = function value # f for problem p and solver s.
-#gate is a positive constant reflecting the convergence tolerance.
-#logplot=1 is used to indicate that a log (base 2) plot is desired.
+% H contains a three dimensional array of function values.
+% H(f,p,s) = function value # f for problem p and solver s.
+% gate is a positive constant reflecting the convergence tolerance.
+% logplot=1 is used to indicate that a log (base 2) plot is desired.
 gate = 1e-2; % eg. 1e-1, 1e-2, 1e-3
 logplot = 10;
 h_p = perf_profile(MatH,gate,logplot);
-#Data profiles :
-#The subroutine returns a handle to lines in a data profile.
+% Data profiles :
+% The subroutine returns a handle to lines in a data profile.
 %
-#H contains a three dimensional array of function values.
-#H(f,p,s) = function value # f for problem p and solver s.
-#N is an np-by-1 vector of (positive) budget units. If simplex
-#gradients are desired, then N(p) would be n(p)+1, where n(p) is
+% H contains a three dimensional array of function values.
+% H(f,p,s) = function value # f for problem p and solver s.
+% N is an np-by-1 vector of (positive) budget units. If simplex
+% gradients are desired, then N(p) would be n(p)+1, where n(p) is
 % the number of variables for problem p.
 gate = 1e-2;
 h_d = data_profile(MatH,N,gate);
