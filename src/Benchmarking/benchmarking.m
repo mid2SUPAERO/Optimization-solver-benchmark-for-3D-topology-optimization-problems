@@ -20,7 +20,7 @@
 NOM_Txt = []; % should contained a list of files name ( e.g. ["out_1.txt";"out_2.txt";....])
 % reading file.txt into Matlab framework
 np = 120; % number of problems
-neval = 200; % number maximum evaluations
+neval = 200; % maximum number of evaluations
 ns = 3; % number of solvers 
 %
 MatH  = zeros(neval,np,ns); % build up of the matrice H (we will explain mat_H at next step)
