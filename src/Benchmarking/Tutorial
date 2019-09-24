@@ -63,10 +63,10 @@ We detail below one by one, how to achieve this goal.
 1. One should go to line above : # How do you change a problem
 2. To change domain's size one should go to line above : # How do you change domain's size ?.
 But to change filter's size and volume fraction, one should use the script : topopt1.slurm
-To use the script one should go .... and then one should modify the setting acordingly.
+To use the script one should go src/Makefile and then one should modify the setting acordingly.
 3. To change a solver, ie MMA (default) to GCMMA or  to OC, one should go to MMA class and replace the class with GCMMA or OC. 
-To use the GCMMA or OC class, one should go to ....
-4. To build up post-treatement or processing on matlab, one should go to .....
+To use the GCMMA or OC class, one should go to src/
+4. To build up post-treatement or processing on matlab, one should go to src/Benchmarking and select benchmarking.m
 
 # How to use the script.slurm to generate 3D topology optimization problems.
 Inside the script topopt1.slurm :
@@ -88,7 +88,7 @@ you can also use WINSCP (software already install on your ICA's computer).
 # For futur work
 1. One should consider using an algorithm to generate automatics problems setting
 when using topopt1.slurm.
-2. One could find in ... sqp algorithm in nlopt with a makefile and source files to work with in other 
+2. One could find in src/Makefile/... sqp algorithm in nlopt with a makefile and source files to work with in other 
 to change solver in topopt Petsc. The code isn't fully working but it compiles. 
 (problem comes from a function call  length_work(*))   
  
