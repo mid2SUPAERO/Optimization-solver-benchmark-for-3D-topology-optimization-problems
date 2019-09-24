@@ -1,8 +1,8 @@
-# Tutorial on how to manage Topopt Petsc (Niels Aage, Erik Andreassen, Boyan Stefanov Lazarov) and 
-# to benchmark 3D topology optimization problems.
+#Tutorial on how to manage Topopt Petsc (Niels Aage, Erik Andreassen, Boyan Stefanov Lazarov) and 
+#to benchmark 3D topology optimization problems.
 
 First and foremost, Topopt petsc consist of five C++ classes and a short main program that i will detail below.
-# Class structure
+#Class structure
 1. TopOpt class : 
 Contains informationon the optimization problem, gridsize, parameters and general settings.
 2. LinearElasticity class : 
@@ -21,21 +21,21 @@ The distribution also includes Python scripts that conveniently converts the bin
 (Schroeder and Martin 2003) that can be visualized in e.g. ParaView version 4 or newer (Ahrens et al. 2005).
 That means one can visualize the optimize design via Paraview.
 
-# How to compile and run the code Topopt petsc on the terminal.
+#How to compile and run the code Topopt petsc on the terminal.
 First and foremost, you will need a makefile script to run it on the terminal. Don't worry, we already have one. 
 To get access to the makefile, one should go back to src/Makefile/ directory
-# how to use makefile!
+#How to use makefile!
 One should first type on terminal : cd topopt/ to be place in the Topopt petsc files and the type : make or make ./topopt 
 to compile the code. To run the code on two processors using the default settings, one  should type :  mpiexec -np 2 ./topopt 
 or mpirun -np 2 ./topopt
 
-# Default settings :
+#Default settings :
 The default problem is the minimum compliance cantilever problem as described in Aage and Lazarov (2013) on a 2x1x1 domain,
 using sensitivity filter with radius 0.08 and a volume fraction of 0.12 percent. 
 The contrast between solid and void is set to 1e+9, the test convergence is set to ||x_k -x_{k+1}|| L.T 0.01 
 or  a maximum of 400 design cycles.
 
-# How do you change a problem, ie cantilever to wheel or wheel to michell?.
+#How do you change a problem, ie cantilever to wheel or wheel to michell?.
 One should go the source file, LinearElasticity.cc (LinearElasticity class) and inside the function : SetUpLoadAndBC(*),
 and to the meat code : // Set the values
 To change default problem to a 3D wheel problem, one shoud go to src/Examples_to_Change_probs directory.
@@ -43,16 +43,16 @@ We do have 3D wheel problem, 3D michell problem, 3D cantilever (by default).
 And of course, one can also build his own new problem by changing //Set the values accordingly to obtain a new problem,
 ie 3D MBB.
 
-# How do you change domain's size ?.
+#How do you change domain's size ?.
 One should go the source file, TopOpt.cc (TopOpt class) and inside the function : SetUp(*), 
 and to the meat code : // SET DEFAULTS for FE mesh and levels for MG solver
 For example : xc[0] = xmin, xc[1]=xmax, xc[2]=ymin, xc[3]=ymax, xc[4]=zmin, xc[5]=zmax, 
 so if you want 4x1x1 domain, one should change xc[0] = 0, xc[1]=4, xc[2]=0, xc[3]=1, xc[4]=0, xc[5]=1
 
-# How do you change filter's size and volume fraction?!
+#How do you change filter's size and volume fraction?!
 One could repeat the same action done to change domain's size but instead modify the meat code :// SET DEFAULTS for optimization problems 
 
-# How to benchmark 3D topopogy optimization problems on HPC.
+#How to benchmark 3D topopogy optimization problems on HPC.
 To benchmark 3D topopogy optimization problems, one should know how to change problems settings in Topopt Petsc:
 1. One should know how to change problem.
 2. one should know how to change domain's size, filter's size and volume fraction.
@@ -68,7 +68,7 @@ To use the script one should go src/Makefile and then one should modify the sett
 To use the GCMMA or OC class, one should go to src/
 4. To build up post-treatement or processing on matlab, one should go to src/Benchmarking and select benchmarking.m
 
-# How to use the script.slurm to generate 3D topology optimization problems.
+#How to use the script.slurm to generate 3D topology optimization problems.
 Inside the script topopt1.slurm :
 For a big size problem, ie over 100 million degrees of freedom (ddl), one should ask calmip (HPC) for
 1. #SBATCH --nodes=40
@@ -85,7 +85,7 @@ To get to file from ./topopt, one should type on terminal : cd .. then cd /tmpdi
 you can also use WINSCP (software already install on your ICA's computer).
 
 
-# For futur work
+#For futur work
 1. One should consider using an algorithm to generate automatics problems setting
 when using topopt1.slurm.
 2. One could find in src/Makefile/makefile_nlopt sqp algorithm in nlopt with a makefile and source files to work with in other 
