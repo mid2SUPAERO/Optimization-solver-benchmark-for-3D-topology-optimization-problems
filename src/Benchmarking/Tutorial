@@ -38,7 +38,7 @@ or  a maximum of 400 design cycles.
 # How do you change a problem, ie cantilever to wheel or wheel to michell?.
 One should go the source file, LinearElasticity.cc (LinearElasticity class) and inside the function : SetUpLoadAndBC(*),
 and to the meat code : // Set the values
-To change default problem to a 3D wheel problem, one shoud go to .....
+To change default problem to a 3D wheel problem, one shoud go to src/Examples_to_Change_probs directory.
 We do have 3D wheel problem, 3D michell problem, 3D cantilever (by default). 
 And of course, one can also build his own new problem by changing //Set the values accordingly to obtain a new problem,
 ie 3D MBB.
