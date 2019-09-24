@@ -23,7 +23,7 @@ That means one can visualize the optimize design via Paraview.
 
 # How to compile and run the code Topopt petsc on the terminal.
 First and foremost, you will need a makefile script to run it on the terminal. Don't worry, we already have one. 
-To get access to the makefile, one should go  to .....
+To get access to the makefile, one should go to .....
 # how to use makefile!
 One should first type on terminal : cd topopt/ to be place in the Topopt petsc files and the type : make or make ./topopt 
 to to compile the code. To run the code on two processors using the default settings, one  should type :  mpiexec -np 2 ./topopt 
@@ -60,7 +60,7 @@ To benchmark 3D topopogy optimization problems, one should know how to change pr
 
 We detail below one by one, how to achieve this goal.
 1. One should go to line above : # How do you change a problem
-2. To change domain's size one should go to linev above : # How do you change domain's size ?.
+2. To change domain's size one should go to line above : # How do you change domain's size ?.
 But to change filter's size and volume fraction, one should use the script : topopt1.slurm
 To use the script one should go .... and then one should modify the setting acordingly.
 3. To change a solver, ie MMA (default) to GCMMA or  to OC, one should go to MMA class and replace the class with GCMMA or OC. 
