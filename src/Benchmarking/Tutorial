@@ -26,7 +26,8 @@ First and foremost, you will need a makefile script to run it on the terminal. D
 To get access to the makefile, one should go to .....
 # how to use makefile!
 One should first type on terminal : cd topopt/ to be place in the Topopt petsc files and the type : make or make ./topopt 
-to to compile the code. To run the code on two processors using the default settings, one  should type :  mpiexec -np 2 ./topopt 
+to compile the code. To run the code on two processors using the default settings, one  should type :  mpiexec -np 2 ./topopt 
+or mpirun -np 2 ./topopt
 
 # Default settings :
 The default problem is the minimum compliance cantilever problem as described in Aage and Lazarov (2013) on a 2x1x1 domain,
@@ -79,7 +80,7 @@ And for a simpler size, ie less than 5 million ddl, one should ask for :
 2. #SBATCH --ntasks=72
 3. #SBATCH --ntasks-per-node=36
 4. #SBATCH --threads-per-core=1
-The output files are written outside ./topopt, in the file : /tmpdir/agyekum/
+The outputdata files are written outside ./topopt, in the file : /tmpdir/agyekum/
 To get to file from ./topopt, one should type on terminal : cd .. then cd /tmpdir/agyekum/
 you can also use WINSCP (software already install on your ICA's computer).
 
@@ -88,7 +89,7 @@ you can also use WINSCP (software already install on your ICA's computer).
 1. One should consider using an algorithm to generate automatics problems setting
 when using topopt1.slurm.
 2. One could find in ... sqp algorithm in nlopt with a makefile and source files to work with in other 
-to change solver in topopt Petsc. To code isn't fully working but it compiles.   
+to change solver in topopt Petsc. The code isn't fully working but it compiles.   
  
 
 
