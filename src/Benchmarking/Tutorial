@@ -23,7 +23,7 @@ That means one can visualize the optimize design via Paraview.
 
 # How to compile and run the code Topopt petsc on the terminal.
 First and foremost, you will need a makefile script to run it on the terminal. Don't worry, we already have one. 
-One can vizualize the makefile by going to .....
+To get access to the makefile, one should go  to .....
 # how to use makefile!
 One should first type on terminal : cd topopt/ to be place in the Topopt petsc files and the type : make or make ./topopt 
 to to compile the code. To run the code on two processors using the default settings, one  should type :  mpiexec -np 2 ./topopt 
