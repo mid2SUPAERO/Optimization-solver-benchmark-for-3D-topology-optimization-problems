@@ -1,5 +1,5 @@
-##Tutorial on how to manage Topopt Petsc (Niels Aage, Erik Andreassen, Boyan Stefanov Lazarov) and 
-##to benchmark 3D topology optimization problems.
+#Tutorial on how to manage Topopt Petsc (Niels Aage, Erik Andreassen, Boyan Stefanov Lazarov) and 
+#to benchmark 3D topology optimization problems.
 
 First and foremost, Topopt petsc consist of five C++ classes and a short main program that i will detail below.
 #Class structure
