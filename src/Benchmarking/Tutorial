@@ -51,7 +51,14 @@ so if you want 4x1x1 domain, one should change xc[0] = 0, xc[1]=4, xc[2]=0, xc[3
 # How do you change filter's size and volume fraction?!
 One could repeat the same action done to change domain's size but instead modify the meat code :// SET DEFAULTS for optimization problems 
 
- 
+# How to benchmark 3D topopogy optimization problems on HPC.
+To benchmark 3D topopogy optimization problems, one should know how to change problems settings :
+1. One should know how to change problem.
+2. one should know how to change domain's size, filter's size and volume fraction.
+3. One should know how to change solver. 
+4. And one should know how to build up post-treatment or processing on matlab using performances profiles and data profiles.
+
+We detail below one by one, how to achieve this goal.
 
 
 
