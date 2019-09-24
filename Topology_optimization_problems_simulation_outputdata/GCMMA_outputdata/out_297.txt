@@ -1,0 +1,1442 @@
+########################################################################
+############################ FEM settings ##############################
+# Number of nodes: (-nx,-ny,-nz):        (129,65,65) 
+# Number of degree of freedom:           1635075 
+# Number of elements:                    (128,64,64) 
+# Dimensions: (-xcmin,-xcmax,..,-zcmax): (2.000000,1.000000,1.000000)
+# -nlvls: 4
+########################################################################
+################### Optimization settings ####################
+# Problem size: n= 524288, m= 1
+# -filter: 2  (0=sens., 1=dens, 2=PDE)
+# -rmin: 0.080000
+# -volfrac: 0.400000
+# -penal: 3.000000
+# -Emin/-Emax: 1.000000e-09 - 1.000000e+00 
+# -maxItr: 200
+# -movlim: 0.200000
+##############################################################
+PDEFilter solver:  iter: 7, rerr.: 1.007953e-12, time: 0.271565
+PDEFilter solver:  iter: 6, rerr.: 1.830591e-12, time: 0.030329
+Done setting up the PDEFilter
+########################################################################
+Outputfile is written to: output.dat 
+To change the working directory, specify '-workdir' at runtime
+##############################################################
+# Continue from previous iteration (-restart): 1 
+# Restart file (-restartFileVec):  
+# Restart file (-restartFileItr):  
+# New restart files are written to (-workdir): ./ (Restart0x.dat and Restart0x_itr_f0.dat) 
+File:  NOT FOUND 
+File:  NOT FOUND 
+PDEFilter solver:  iter: 6, rerr.: 1.624487e-12, time: 0.030944
+# Restarting with solution (State Vector) from (-restartFileVecSol):  
+File:  NOT FOUND 
+##############################################################
+################# Linear solver settings #####################
+# Main solver: fgmres, prec.: mg, maxiter.: 200 
+# Level 0 smoother: gmres, prec.: sor, sweep: 30 
+# Level 1 smoother: gmres, prec.: sor, sweep: 4 
+# Level 2 smoother: gmres, prec.: sor, sweep: 4 
+# Level 3 smoother: gmres, prec.: sor, sweep: 4 
+##############################################################
+State solver:  iter: 7, rerr.: 1.382594e-06, time: 1.471186
+PDEFilter solver:  iter: 7, rerr.: 6.558009e-16, time: 0.035803
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030310
+State solver:  iter: 0, rerr.: 1.382594e-06, time: 0.201242
+State solver:  iter: 0, rerr.: 1.382594e-06, time: 0.193485
+PDEFilter solver:  iter: 6, rerr.: 1.807039e-12, time: 0.030913
+It.: 1, obj.: 10.000000, g[0]: -0.000000, ch.: 0.196251, time: 2.078422
+State solver:  iter: 5, rerr.: 5.692441e-06, time: 0.993483
+PDEFilter solver:  iter: 6, rerr.: 2.518486e-15, time: 0.031048
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030422
+State solver:  iter: 0, rerr.: 5.692441e-06, time: 0.193373
+State solver:  iter: 0, rerr.: 5.692441e-06, time: 0.193734
+PDEFilter solver:  iter: 6, rerr.: 2.196880e-12, time: 0.030937
+It.: 2, obj.: 5.617924, g[0]: 0.018680, ch.: 0.193771, time: 1.587959
+State solver:  iter: 5, rerr.: 5.712982e-06, time: 0.992852
+PDEFilter solver:  iter: 6, rerr.: 1.539068e-15, time: 0.030878
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030320
+State solver:  iter: 0, rerr.: 5.712982e-06, time: 0.193420
+State solver:  iter: 0, rerr.: 5.712982e-06, time: 0.193430
+PDEFilter solver:  iter: 6, rerr.: 2.444424e-12, time: 0.030747
+It.: 3, obj.: 4.475311, g[0]: 0.018924, ch.: 0.189732, time: 1.586737
+State solver:  iter: 5, rerr.: 3.001542e-06, time: 0.991156
+PDEFilter solver:  iter: 6, rerr.: 1.290677e-15, time: 0.030797
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030309
+State solver:  iter: 0, rerr.: 3.001542e-06, time: 0.193687
+State solver:  iter: 0, rerr.: 3.001542e-06, time: 0.193197
+PDEFilter solver:  iter: 6, rerr.: 2.557992e-12, time: 0.030809
+It.: 4, obj.: 3.965392, g[0]: 0.011291, ch.: 0.200000, time: 1.584683
+State solver:  iter: 6, rerr.: 8.636103e-07, time: 1.153209
+PDEFilter solver:  iter: 6, rerr.: 1.190731e-15, time: 0.030821
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030216
+State solver:  iter: 0, rerr.: 8.636103e-07, time: 0.193578
+State solver:  iter: 0, rerr.: 8.636103e-07, time: 0.193155
+PDEFilter solver:  iter: 6, rerr.: 2.532299e-12, time: 0.030762
+It.: 5, obj.: 3.555746, g[0]: 0.008941, ch.: 0.200000, time: 1.745631
+State solver:  iter: 5, rerr.: 9.495326e-06, time: 0.992182
+PDEFilter solver:  iter: 6, rerr.: 1.152119e-15, time: 0.030662
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030372
+State solver:  iter: 0, rerr.: 9.495326e-06, time: 0.193724
+State solver:  iter: 0, rerr.: 9.495326e-06, time: 0.193275
+PDEFilter solver:  iter: 6, rerr.: 2.518596e-12, time: 0.034083
+It.: 6, obj.: 3.286633, g[0]: 0.005477, ch.: 0.200000, time: 1.588002
+State solver:  iter: 6, rerr.: 4.890652e-06, time: 1.149908
+PDEFilter solver:  iter: 6, rerr.: 1.096887e-15, time: 0.030756
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030117
+State solver:  iter: 0, rerr.: 4.890652e-06, time: 0.193472
+State solver:  iter: 0, rerr.: 4.890652e-06, time: 0.193519
+PDEFilter solver:  iter: 6, rerr.: 2.404634e-12, time: 0.030817
+It.: 7, obj.: 3.026408, g[0]: 0.003442, ch.: 0.200000, time: 1.742369
+State solver:  iter: 7, rerr.: 1.998812e-06, time: 1.312515
+PDEFilter solver:  iter: 6, rerr.: 1.007634e-15, time: 0.030806
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030225
+State solver:  iter: 0, rerr.: 1.998812e-06, time: 0.193475
+State solver:  iter: 0, rerr.: 1.998812e-06, time: 0.193323
+PDEFilter solver:  iter: 6, rerr.: 2.429432e-12, time: 0.030811
+It.: 8, obj.: 2.775292, g[0]: 0.000549, ch.: 0.200000, time: 1.904945
+State solver:  iter: 7, rerr.: 3.205351e-06, time: 1.310940
+PDEFilter solver:  iter: 6, rerr.: 8.979471e-16, time: 0.030787
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030275
+State solver:  iter: 0, rerr.: 3.205351e-06, time: 0.193181
+State solver:  iter: 0, rerr.: 3.205351e-06, time: 0.193291
+PDEFilter solver:  iter: 6, rerr.: 3.129775e-12, time: 0.030763
+It.: 9, obj.: 2.499230, g[0]: -0.000644, ch.: 0.200000, time: 1.903176
+State solver:  iter: 8, rerr.: 4.716502e-06, time: 1.472697
+PDEFilter solver:  iter: 7, rerr.: 5.827796e-17, time: 0.035729
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030268
+State solver:  iter: 0, rerr.: 4.716502e-06, time: 0.193610
+State solver:  iter: 0, rerr.: 4.716502e-06, time: 0.193509
+PDEFilter solver:  iter: 6, rerr.: 3.673359e-12, time: 0.030811
+It.: 10, obj.: 2.217182, g[0]: -0.003353, ch.: 0.200000, time: 2.071349
+State solver:  iter: 9, rerr.: 8.315379e-06, time: 1.630636
+PDEFilter solver:  iter: 7, rerr.: 5.337897e-17, time: 0.035614
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030729
+State solver:  iter: 0, rerr.: 8.315379e-06, time: 0.193434
+State solver:  iter: 0, rerr.: 8.315379e-06, time: 0.193195
+PDEFilter solver:  iter: 6, rerr.: 4.140927e-12, time: 0.030708
+It.: 11, obj.: 1.903046, g[0]: -0.003324, ch.: 0.200000, time: 2.230387
+State solver:  iter: 12, rerr.: 4.244452e-06, time: 2.109494
+PDEFilter solver:  iter: 7, rerr.: 5.073688e-17, time: 0.035679
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030227
+State solver:  iter: 0, rerr.: 4.244452e-06, time: 0.193138
+State solver:  iter: 0, rerr.: 4.244452e-06, time: 0.193384
+PDEFilter solver:  iter: 6, rerr.: 4.491315e-12, time: 0.030638
+It.: 12, obj.: 1.713656, g[0]: -0.001521, ch.: 0.200000, time: 2.706907
+State solver:  iter: 7, rerr.: 8.050295e-06, time: 1.311009
+PDEFilter solver:  iter: 7, rerr.: 4.926541e-17, time: 0.035734
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030119
+State solver:  iter: 0, rerr.: 8.050295e-06, time: 0.193270
+State solver:  iter: 0, rerr.: 8.050295e-06, time: 0.193190
+PDEFilter solver:  iter: 6, rerr.: 4.680444e-12, time: 0.030708
+It.: 13, obj.: 1.616780, g[0]: -0.001086, ch.: 0.200000, time: 1.908044
+State solver:  iter: 8, rerr.: 2.837171e-06, time: 1.470678
+PDEFilter solver:  iter: 7, rerr.: 4.821325e-17, time: 0.035605
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030318
+State solver:  iter: 0, rerr.: 2.837171e-06, time: 0.193180
+State solver:  iter: 0, rerr.: 2.837171e-06, time: 0.193441
+PDEFilter solver:  iter: 6, rerr.: 4.837243e-12, time: 0.030881
+It.: 14, obj.: 1.555437, g[0]: 0.000160, ch.: 0.200000, time: 2.068300
+State solver:  iter: 6, rerr.: 9.346589e-06, time: 1.151729
+PDEFilter solver:  iter: 7, rerr.: 4.747395e-17, time: 0.035658
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030205
+State solver:  iter: 0, rerr.: 9.346589e-06, time: 0.193427
+State solver:  iter: 0, rerr.: 9.346589e-06, time: 0.193139
+PDEFilter solver:  iter: 6, rerr.: 4.989649e-12, time: 0.030746
+It.: 15, obj.: 1.523202, g[0]: 0.000680, ch.: 0.200000, time: 1.748007
+State solver:  iter: 6, rerr.: 6.979412e-06, time: 1.151553
+PDEFilter solver:  iter: 7, rerr.: 4.691694e-17, time: 0.035687
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030243
+State solver:  iter: 0, rerr.: 6.979412e-06, time: 0.193154
+State solver:  iter: 0, rerr.: 6.979412e-06, time: 0.193480
+PDEFilter solver:  iter: 6, rerr.: 5.097642e-12, time: 0.030822
+It.: 16, obj.: 1.502945, g[0]: 0.001513, ch.: 0.200000, time: 1.747865
+State solver:  iter: 6, rerr.: 4.885982e-06, time: 1.151278
+PDEFilter solver:  iter: 7, rerr.: 4.650620e-17, time: 0.035583
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030313
+State solver:  iter: 0, rerr.: 4.885982e-06, time: 0.193174
+State solver:  iter: 0, rerr.: 4.885982e-06, time: 0.193393
+PDEFilter solver:  iter: 6, rerr.: 5.216225e-12, time: 0.030685
+It.: 17, obj.: 1.491011, g[0]: 0.001984, ch.: 0.200000, time: 1.748775
+State solver:  iter: 5, rerr.: 6.803834e-06, time: 0.992039
+PDEFilter solver:  iter: 7, rerr.: 4.620232e-17, time: 0.035749
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030157
+State solver:  iter: 0, rerr.: 6.803834e-06, time: 0.193715
+State solver:  iter: 0, rerr.: 6.803834e-06, time: 0.193046
+PDEFilter solver:  iter: 6, rerr.: 5.286110e-12, time: 0.030807
+It.: 18, obj.: 1.482864, g[0]: 0.002358, ch.: 0.200000, time: 1.588656
+State solver:  iter: 5, rerr.: 3.800069e-06, time: 0.992024
+PDEFilter solver:  iter: 7, rerr.: 4.596466e-17, time: 0.035742
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030218
+State solver:  iter: 0, rerr.: 3.800069e-06, time: 0.192777
+State solver:  iter: 0, rerr.: 3.800069e-06, time: 0.192989
+PDEFilter solver:  iter: 6, rerr.: 5.344118e-12, time: 0.030864
+It.: 19, obj.: 1.477047, g[0]: 0.002607, ch.: 0.200000, time: 1.587554
+State solver:  iter: 4, rerr.: 8.825280e-06, time: 0.832829
+PDEFilter solver:  iter: 7, rerr.: 4.577989e-17, time: 0.035834
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030121
+State solver:  iter: 0, rerr.: 8.825280e-06, time: 0.193020
+State solver:  iter: 0, rerr.: 8.825280e-06, time: 0.193243
+PDEFilter solver:  iter: 6, rerr.: 5.413184e-12, time: 0.030927
+It.: 20, obj.: 1.472876, g[0]: 0.002738, ch.: 0.200000, time: 1.430158
+State solver:  iter: 4, rerr.: 9.054691e-06, time: 0.884615
+PDEFilter solver:  iter: 7, rerr.: 4.560679e-17, time: 0.037225
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.031592
+State solver:  iter: 0, rerr.: 9.054691e-06, time: 0.193075
+State solver:  iter: 0, rerr.: 9.054691e-06, time: 0.193068
+PDEFilter solver:  iter: 6, rerr.: 5.473460e-12, time: 0.032161
+It.: 21, obj.: 1.469337, g[0]: 0.002795, ch.: 0.200000, time: 1.498010
+State solver:  iter: 5, rerr.: 2.477646e-06, time: 0.992013
+PDEFilter solver:  iter: 7, rerr.: 4.547928e-17, time: 0.035710
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030156
+State solver:  iter: 0, rerr.: 2.477646e-06, time: 0.193233
+State solver:  iter: 0, rerr.: 2.477646e-06, time: 0.193115
+PDEFilter solver:  iter: 6, rerr.: 5.507405e-12, time: 0.030736
+It.: 22, obj.: 1.467454, g[0]: 0.002775, ch.: 0.200000, time: 1.588926
+State solver:  iter: 5, rerr.: 4.399999e-06, time: 0.991811
+PDEFilter solver:  iter: 7, rerr.: 4.534445e-17, time: 0.035649
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030126
+State solver:  iter: 0, rerr.: 4.399999e-06, time: 0.193765
+State solver:  iter: 0, rerr.: 4.399999e-06, time: 0.193169
+PDEFilter solver:  iter: 6, rerr.: 5.537866e-12, time: 0.030798
+It.: 23, obj.: 1.465276, g[0]: 0.002780, ch.: 0.200000, time: 1.588845
+State solver:  iter: 5, rerr.: 2.160566e-06, time: 0.992144
+PDEFilter solver:  iter: 7, rerr.: 4.524192e-17, time: 0.035807
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030151
+State solver:  iter: 0, rerr.: 2.160566e-06, time: 0.193238
+State solver:  iter: 0, rerr.: 2.160566e-06, time: 0.193170
+PDEFilter solver:  iter: 6, rerr.: 5.565612e-12, time: 0.030707
+It.: 24, obj.: 1.463794, g[0]: 0.002769, ch.: 0.200000, time: 1.589112
+State solver:  iter: 5, rerr.: 2.450923e-06, time: 0.991896
+PDEFilter solver:  iter: 7, rerr.: 4.515188e-17, time: 0.035702
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030140
+State solver:  iter: 0, rerr.: 2.450923e-06, time: 0.193296
+State solver:  iter: 0, rerr.: 2.450923e-06, time: 0.193067
+PDEFilter solver:  iter: 6, rerr.: 5.612747e-12, time: 0.030629
+It.: 25, obj.: 1.462353, g[0]: 0.002792, ch.: 0.200000, time: 1.588597
+State solver:  iter: 4, rerr.: 8.117761e-06, time: 0.832401
+PDEFilter solver:  iter: 7, rerr.: 4.508761e-17, time: 0.036052
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030559
+State solver:  iter: 0, rerr.: 8.117761e-06, time: 0.193119
+State solver:  iter: 0, rerr.: 8.117761e-06, time: 0.192993
+PDEFilter solver:  iter: 6, rerr.: 5.660512e-12, time: 0.030757
+It.: 26, obj.: 1.461496, g[0]: 0.002796, ch.: 0.200000, time: 1.429684
+State solver:  iter: 4, rerr.: 6.238933e-06, time: 0.833006
+PDEFilter solver:  iter: 7, rerr.: 4.501712e-17, time: 0.035709
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030202
+State solver:  iter: 0, rerr.: 6.238933e-06, time: 0.192930
+State solver:  iter: 0, rerr.: 6.238933e-06, time: 0.193103
+PDEFilter solver:  iter: 6, rerr.: 5.700707e-12, time: 0.030741
+It.: 27, obj.: 1.460281, g[0]: 0.002814, ch.: 0.200000, time: 1.429064
+State solver:  iter: 4, rerr.: 6.061431e-06, time: 0.832192
+PDEFilter solver:  iter: 7, rerr.: 4.495695e-17, time: 0.035678
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030259
+State solver:  iter: 0, rerr.: 6.061431e-06, time: 0.193088
+State solver:  iter: 0, rerr.: 6.061431e-06, time: 0.193070
+PDEFilter solver:  iter: 6, rerr.: 5.735828e-12, time: 0.030739
+It.: 28, obj.: 1.459352, g[0]: 0.002827, ch.: 0.200000, time: 1.429628
+State solver:  iter: 4, rerr.: 5.475247e-06, time: 0.832751
+PDEFilter solver:  iter: 7, rerr.: 4.490453e-17, time: 0.035662
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030168
+State solver:  iter: 0, rerr.: 5.475247e-06, time: 0.193286
+State solver:  iter: 0, rerr.: 5.475247e-06, time: 0.192957
+PDEFilter solver:  iter: 6, rerr.: 5.757153e-12, time: 0.030800
+It.: 29, obj.: 1.458588, g[0]: 0.002855, ch.: 0.200000, time: 1.429004
+State solver:  iter: 4, rerr.: 5.351049e-06, time: 0.832298
+PDEFilter solver:  iter: 7, rerr.: 4.485761e-17, time: 0.035681
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030223
+State solver:  iter: 0, rerr.: 5.351049e-06, time: 0.193137
+State solver:  iter: 0, rerr.: 5.351049e-06, time: 0.192992
+PDEFilter solver:  iter: 6, rerr.: 5.779655e-12, time: 0.030789
+It.: 30, obj.: 1.457903, g[0]: 0.002885, ch.: 0.200000, time: 1.429371
+State solver:  iter: 4, rerr.: 4.509907e-06, time: 0.832128
+PDEFilter solver:  iter: 7, rerr.: 4.480833e-17, time: 0.035606
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030295
+State solver:  iter: 0, rerr.: 4.509907e-06, time: 0.193010
+State solver:  iter: 0, rerr.: 4.509907e-06, time: 0.193170
+PDEFilter solver:  iter: 6, rerr.: 5.805458e-12, time: 0.030771
+It.: 31, obj.: 1.457236, g[0]: 0.002909, ch.: 0.200000, time: 1.428725
+State solver:  iter: 4, rerr.: 4.164014e-06, time: 0.832416
+PDEFilter solver:  iter: 7, rerr.: 4.476440e-17, time: 0.035553
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030272
+State solver:  iter: 0, rerr.: 4.164014e-06, time: 0.193203
+State solver:  iter: 0, rerr.: 4.164014e-06, time: 0.192955
+PDEFilter solver:  iter: 6, rerr.: 5.833952e-12, time: 0.030779
+It.: 32, obj.: 1.456660, g[0]: 0.002942, ch.: 0.200000, time: 1.429877
+State solver:  iter: 4, rerr.: 4.176916e-06, time: 0.832691
+PDEFilter solver:  iter: 7, rerr.: 4.472404e-17, time: 0.035648
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030266
+State solver:  iter: 0, rerr.: 4.176916e-06, time: 0.193412
+State solver:  iter: 0, rerr.: 4.176916e-06, time: 0.193358
+PDEFilter solver:  iter: 6, rerr.: 5.870003e-12, time: 0.030757
+It.: 33, obj.: 1.456068, g[0]: 0.002989, ch.: 0.200000, time: 1.429700
+State solver:  iter: 3, rerr.: 9.903634e-06, time: 0.673829
+PDEFilter solver:  iter: 7, rerr.: 4.469610e-17, time: 0.035745
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030181
+State solver:  iter: 0, rerr.: 9.903634e-06, time: 0.193075
+State solver:  iter: 0, rerr.: 9.903634e-06, time: 0.192825
+PDEFilter solver:  iter: 6, rerr.: 5.897198e-12, time: 0.030944
+It.: 34, obj.: 1.455745, g[0]: 0.003021, ch.: 0.200000, time: 1.270309
+State solver:  iter: 3, rerr.: 9.823361e-06, time: 0.673094
+PDEFilter solver:  iter: 7, rerr.: 4.466260e-17, time: 0.035659
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030233
+State solver:  iter: 0, rerr.: 9.823361e-06, time: 0.193030
+State solver:  iter: 0, rerr.: 9.823361e-06, time: 0.193052
+PDEFilter solver:  iter: 6, rerr.: 5.930637e-12, time: 0.030722
+It.: 35, obj.: 1.455294, g[0]: 0.003041, ch.: 0.200000, time: 1.270106
+State solver:  iter: 3, rerr.: 9.331023e-06, time: 0.673301
+PDEFilter solver:  iter: 7, rerr.: 4.463150e-17, time: 0.035750
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030310
+State solver:  iter: 0, rerr.: 9.331023e-06, time: 0.192934
+State solver:  iter: 0, rerr.: 9.331023e-06, time: 0.192962
+PDEFilter solver:  iter: 6, rerr.: 5.970178e-12, time: 0.030659
+It.: 36, obj.: 1.454934, g[0]: 0.003061, ch.: 0.200000, time: 1.270345
+State solver:  iter: 3, rerr.: 8.930392e-06, time: 0.673318
+PDEFilter solver:  iter: 7, rerr.: 4.460215e-17, time: 0.035666
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030147
+State solver:  iter: 0, rerr.: 8.930392e-06, time: 0.193123
+State solver:  iter: 0, rerr.: 8.930392e-06, time: 0.192953
+PDEFilter solver:  iter: 6, rerr.: 6.007280e-12, time: 0.030789
+It.: 37, obj.: 1.454559, g[0]: 0.003084, ch.: 0.200000, time: 1.269491
+State solver:  iter: 4, rerr.: 3.731210e-06, time: 0.832302
+PDEFilter solver:  iter: 7, rerr.: 4.456883e-17, time: 0.035717
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030224
+State solver:  iter: 0, rerr.: 3.731210e-06, time: 0.192992
+State solver:  iter: 0, rerr.: 3.731210e-06, time: 0.193111
+PDEFilter solver:  iter: 6, rerr.: 6.038209e-12, time: 0.030764
+It.: 38, obj.: 1.454012, g[0]: 0.003121, ch.: 0.200000, time: 1.428914
+State solver:  iter: 3, rerr.: 7.113837e-06, time: 0.672911
+PDEFilter solver:  iter: 7, rerr.: 4.454512e-17, time: 0.035579
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030462
+State solver:  iter: 0, rerr.: 7.113837e-06, time: 0.193125
+State solver:  iter: 0, rerr.: 7.113837e-06, time: 0.193180
+PDEFilter solver:  iter: 6, rerr.: 6.052584e-12, time: 0.030789
+It.: 39, obj.: 1.453744, g[0]: 0.003147, ch.: 0.200000, time: 1.269979
+State solver:  iter: 3, rerr.: 6.187991e-06, time: 0.672639
+PDEFilter solver:  iter: 7, rerr.: 4.452259e-17, time: 0.035663
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030187
+State solver:  iter: 0, rerr.: 6.187991e-06, time: 0.193242
+State solver:  iter: 0, rerr.: 6.187991e-06, time: 0.193180
+PDEFilter solver:  iter: 6, rerr.: 6.064810e-12, time: 0.030928
+It.: 40, obj.: 1.453461, g[0]: 0.003167, ch.: 0.200000, time: 1.269677
+State solver:  iter: 3, rerr.: 5.870985e-06, time: 0.673232
+PDEFilter solver:  iter: 7, rerr.: 4.450328e-17, time: 0.036979
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030238
+State solver:  iter: 0, rerr.: 5.870985e-06, time: 0.193159
+State solver:  iter: 0, rerr.: 5.870985e-06, time: 0.192883
+PDEFilter solver:  iter: 6, rerr.: 6.078925e-12, time: 0.030712
+It.: 41, obj.: 1.453233, g[0]: 0.003179, ch.: 0.200000, time: 1.271061
+State solver:  iter: 3, rerr.: 5.449194e-06, time: 0.673037
+PDEFilter solver:  iter: 7, rerr.: 4.448569e-17, time: 0.035901
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030187
+State solver:  iter: 0, rerr.: 5.449194e-06, time: 0.193026
+State solver:  iter: 0, rerr.: 5.449194e-06, time: 0.192886
+PDEFilter solver:  iter: 6, rerr.: 6.094806e-12, time: 0.030838
+It.: 42, obj.: 1.453017, g[0]: 0.003185, ch.: 0.200000, time: 1.269504
+State solver:  iter: 3, rerr.: 4.531167e-06, time: 0.672436
+PDEFilter solver:  iter: 7, rerr.: 4.447033e-17, time: 0.035767
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030267
+State solver:  iter: 0, rerr.: 4.531167e-06, time: 0.193319
+State solver:  iter: 0, rerr.: 4.531167e-06, time: 0.193155
+PDEFilter solver:  iter: 6, rerr.: 6.118385e-12, time: 0.030676
+It.: 43, obj.: 1.452822, g[0]: 0.003183, ch.: 0.200000, time: 1.269215
+State solver:  iter: 3, rerr.: 4.475531e-06, time: 0.672595
+PDEFilter solver:  iter: 7, rerr.: 4.445464e-17, time: 0.035814
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030316
+State solver:  iter: 0, rerr.: 4.475531e-06, time: 0.192994
+State solver:  iter: 0, rerr.: 4.475531e-06, time: 0.192893
+PDEFilter solver:  iter: 6, rerr.: 6.143485e-12, time: 0.030933
+It.: 44, obj.: 1.452618, g[0]: 0.003185, ch.: 0.200000, time: 1.269052
+State solver:  iter: 3, rerr.: 4.085986e-06, time: 0.672974
+PDEFilter solver:  iter: 7, rerr.: 4.443858e-17, time: 0.035687
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030175
+State solver:  iter: 0, rerr.: 4.085986e-06, time: 0.193506
+State solver:  iter: 0, rerr.: 4.085986e-06, time: 0.193047
+PDEFilter solver:  iter: 6, rerr.: 6.169448e-12, time: 0.030729
+It.: 45, obj.: 1.452402, g[0]: 0.003190, ch.: 0.200000, time: 1.270378
+State solver:  iter: 3, rerr.: 3.745037e-06, time: 0.672663
+PDEFilter solver:  iter: 7, rerr.: 4.442350e-17, time: 0.035650
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030298
+State solver:  iter: 0, rerr.: 3.745037e-06, time: 0.193046
+State solver:  iter: 0, rerr.: 3.745037e-06, time: 0.193011
+PDEFilter solver:  iter: 6, rerr.: 6.194937e-12, time: 0.030768
+It.: 46, obj.: 1.452218, g[0]: 0.003193, ch.: 0.200000, time: 1.268922
+State solver:  iter: 3, rerr.: 3.713489e-06, time: 0.673074
+PDEFilter solver:  iter: 7, rerr.: 4.440879e-17, time: 0.035669
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030082
+State solver:  iter: 0, rerr.: 3.713489e-06, time: 0.193490
+State solver:  iter: 0, rerr.: 3.713489e-06, time: 0.193124
+PDEFilter solver:  iter: 6, rerr.: 6.217857e-12, time: 0.030764
+It.: 47, obj.: 1.452053, g[0]: 0.003196, ch.: 0.200000, time: 1.269664
+State solver:  iter: 3, rerr.: 3.536610e-06, time: 0.677702
+PDEFilter solver:  iter: 7, rerr.: 4.439587e-17, time: 0.035507
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030272
+State solver:  iter: 0, rerr.: 3.536610e-06, time: 0.193048
+State solver:  iter: 0, rerr.: 3.536610e-06, time: 0.192861
+PDEFilter solver:  iter: 6, rerr.: 6.239785e-12, time: 0.030778
+It.: 48, obj.: 1.451889, g[0]: 0.003195, ch.: 0.200000, time: 1.273896
+State solver:  iter: 3, rerr.: 3.427869e-06, time: 0.673441
+PDEFilter solver:  iter: 7, rerr.: 4.438329e-17, time: 0.035635
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.031901
+State solver:  iter: 0, rerr.: 3.427869e-06, time: 0.193027
+State solver:  iter: 0, rerr.: 3.427869e-06, time: 0.193434
+PDEFilter solver:  iter: 6, rerr.: 6.257085e-12, time: 0.030789
+It.: 49, obj.: 1.451723, g[0]: 0.003200, ch.: 0.200000, time: 1.275098
+State solver:  iter: 3, rerr.: 4.703752e-06, time: 0.672792
+PDEFilter solver:  iter: 7, rerr.: 4.437268e-17, time: 0.035700
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030249
+State solver:  iter: 0, rerr.: 4.703752e-06, time: 0.193088
+State solver:  iter: 0, rerr.: 4.703752e-06, time: 0.193204
+PDEFilter solver:  iter: 6, rerr.: 6.266433e-12, time: 0.030972
+It.: 50, obj.: 1.451569, g[0]: 0.003206, ch.: 0.200000, time: 1.269643
+State solver:  iter: 3, rerr.: 3.808784e-06, time: 0.673030
+PDEFilter solver:  iter: 7, rerr.: 4.436153e-17, time: 0.038666
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030382
+State solver:  iter: 0, rerr.: 3.808784e-06, time: 0.193173
+State solver:  iter: 0, rerr.: 3.808784e-06, time: 0.193146
+PDEFilter solver:  iter: 6, rerr.: 6.270870e-12, time: 0.030953
+It.: 51, obj.: 1.451404, g[0]: 0.003207, ch.: 0.200000, time: 1.273321
+State solver:  iter: 3, rerr.: 4.177595e-06, time: 0.673183
+PDEFilter solver:  iter: 7, rerr.: 4.435162e-17, time: 0.035650
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030274
+State solver:  iter: 0, rerr.: 4.177595e-06, time: 0.193694
+State solver:  iter: 0, rerr.: 4.177595e-06, time: 0.193113
+PDEFilter solver:  iter: 6, rerr.: 6.284276e-12, time: 0.030745
+It.: 52, obj.: 1.451260, g[0]: 0.003207, ch.: 0.200000, time: 1.270210
+State solver:  iter: 3, rerr.: 3.899120e-06, time: 0.673091
+PDEFilter solver:  iter: 7, rerr.: 4.434142e-17, time: 0.035742
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030259
+State solver:  iter: 0, rerr.: 3.899120e-06, time: 0.193168
+State solver:  iter: 0, rerr.: 3.899120e-06, time: 0.192950
+PDEFilter solver:  iter: 6, rerr.: 6.293814e-12, time: 0.030775
+It.: 53, obj.: 1.451116, g[0]: 0.003207, ch.: 0.200000, time: 1.269549
+State solver:  iter: 3, rerr.: 2.732634e-06, time: 0.675331
+PDEFilter solver:  iter: 7, rerr.: 4.433151e-17, time: 0.035665
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030421
+State solver:  iter: 0, rerr.: 2.732634e-06, time: 0.193255
+State solver:  iter: 0, rerr.: 2.732634e-06, time: 0.193028
+PDEFilter solver:  iter: 6, rerr.: 6.295486e-12, time: 0.030802
+It.: 54, obj.: 1.450977, g[0]: 0.003200, ch.: 0.200000, time: 1.272001
+State solver:  iter: 3, rerr.: 2.189131e-06, time: 0.673378
+PDEFilter solver:  iter: 7, rerr.: 4.432334e-17, time: 0.035722
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030358
+State solver:  iter: 0, rerr.: 2.189131e-06, time: 0.192960
+State solver:  iter: 0, rerr.: 2.189131e-06, time: 0.192783
+PDEFilter solver:  iter: 6, rerr.: 6.301814e-12, time: 0.030725
+It.: 55, obj.: 1.450855, g[0]: 0.003193, ch.: 0.200000, time: 1.269494
+State solver:  iter: 3, rerr.: 2.321401e-06, time: 0.673328
+PDEFilter solver:  iter: 7, rerr.: 4.431458e-17, time: 0.035598
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030243
+State solver:  iter: 0, rerr.: 2.321401e-06, time: 0.193213
+State solver:  iter: 0, rerr.: 2.321401e-06, time: 0.193189
+PDEFilter solver:  iter: 6, rerr.: 6.310710e-12, time: 0.030817
+It.: 56, obj.: 1.450743, g[0]: 0.003193, ch.: 0.200000, time: 1.269958
+State solver:  iter: 3, rerr.: 2.680646e-06, time: 0.673578
+PDEFilter solver:  iter: 7, rerr.: 4.430501e-17, time: 0.035692
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030244
+State solver:  iter: 0, rerr.: 2.680646e-06, time: 0.193002
+State solver:  iter: 0, rerr.: 2.680646e-06, time: 0.193144
+PDEFilter solver:  iter: 6, rerr.: 6.323020e-12, time: 0.030765
+It.: 57, obj.: 1.450650, g[0]: 0.003191, ch.: 0.200000, time: 1.270144
+State solver:  iter: 3, rerr.: 2.973966e-06, time: 0.673234
+PDEFilter solver:  iter: 7, rerr.: 4.429518e-17, time: 0.035644
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030150
+State solver:  iter: 0, rerr.: 2.973966e-06, time: 0.192725
+State solver:  iter: 0, rerr.: 2.973966e-06, time: 0.193061
+PDEFilter solver:  iter: 6, rerr.: 6.331490e-12, time: 0.031057
+It.: 58, obj.: 1.450572, g[0]: 0.003181, ch.: 0.200000, time: 1.269212
+State solver:  iter: 3, rerr.: 3.263843e-06, time: 0.673553
+PDEFilter solver:  iter: 7, rerr.: 4.428569e-17, time: 0.035688
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030128
+State solver:  iter: 0, rerr.: 3.263843e-06, time: 0.193096
+State solver:  iter: 0, rerr.: 3.263843e-06, time: 0.193054
+PDEFilter solver:  iter: 6, rerr.: 6.343696e-12, time: 0.030864
+It.: 59, obj.: 1.450484, g[0]: 0.003178, ch.: 0.200000, time: 1.269824
+State solver:  iter: 2, rerr.: 9.675479e-06, time: 0.513669
+PDEFilter solver:  iter: 7, rerr.: 4.427841e-17, time: 0.035761
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030135
+State solver:  iter: 0, rerr.: 9.675479e-06, time: 0.193027
+State solver:  iter: 0, rerr.: 9.675479e-06, time: 0.192687
+PDEFilter solver:  iter: 6, rerr.: 6.356195e-12, time: 0.030666
+It.: 60, obj.: 1.450426, g[0]: 0.003170, ch.: 0.200000, time: 1.109936
+State solver:  iter: 3, rerr.: 2.617203e-06, time: 0.674090
+PDEFilter solver:  iter: 7, rerr.: 4.426723e-17, time: 0.035871
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030270
+State solver:  iter: 0, rerr.: 2.617203e-06, time: 0.192989
+State solver:  iter: 0, rerr.: 2.617203e-06, time: 0.193171
+PDEFilter solver:  iter: 6, rerr.: 6.367073e-12, time: 0.034376
+It.: 61, obj.: 1.450340, g[0]: 0.003161, ch.: 0.200000, time: 1.274693
+State solver:  iter: 2, rerr.: 9.960089e-06, time: 0.518296
+PDEFilter solver:  iter: 7, rerr.: 4.425979e-17, time: 0.039865
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.033412
+State solver:  iter: 0, rerr.: 9.960089e-06, time: 0.192999
+State solver:  iter: 0, rerr.: 9.960089e-06, time: 0.193231
+PDEFilter solver:  iter: 6, rerr.: 6.381686e-12, time: 0.030749
+It.: 62, obj.: 1.450294, g[0]: 0.003149, ch.: 0.200000, time: 1.122955
+State solver:  iter: 2, rerr.: 9.145707e-06, time: 0.514487
+PDEFilter solver:  iter: 7, rerr.: 4.425116e-17, time: 0.035612
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030262
+State solver:  iter: 0, rerr.: 9.145707e-06, time: 0.193104
+State solver:  iter: 0, rerr.: 9.145707e-06, time: 0.193153
+PDEFilter solver:  iter: 6, rerr.: 6.385381e-12, time: 0.030919
+It.: 63, obj.: 1.450241, g[0]: 0.003137, ch.: 0.200000, time: 1.111089
+State solver:  iter: 2, rerr.: 8.577712e-06, time: 0.513261
+PDEFilter solver:  iter: 7, rerr.: 4.424387e-17, time: 0.035861
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030246
+State solver:  iter: 0, rerr.: 8.577712e-06, time: 0.193219
+State solver:  iter: 0, rerr.: 8.577712e-06, time: 0.193121
+PDEFilter solver:  iter: 6, rerr.: 6.379275e-12, time: 0.030850
+It.: 64, obj.: 1.450191, g[0]: 0.003132, ch.: 0.200000, time: 1.109866
+State solver:  iter: 2, rerr.: 8.154824e-06, time: 0.513832
+PDEFilter solver:  iter: 7, rerr.: 4.423737e-17, time: 0.035807
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030255
+State solver:  iter: 0, rerr.: 8.154824e-06, time: 0.193279
+State solver:  iter: 0, rerr.: 8.154824e-06, time: 0.193058
+PDEFilter solver:  iter: 6, rerr.: 6.373335e-12, time: 0.030844
+It.: 65, obj.: 1.450149, g[0]: 0.003132, ch.: 0.200000, time: 1.110825
+State solver:  iter: 2, rerr.: 8.049718e-06, time: 0.513648
+PDEFilter solver:  iter: 7, rerr.: 4.423067e-17, time: 0.035714
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030149
+State solver:  iter: 0, rerr.: 8.049718e-06, time: 0.193364
+State solver:  iter: 0, rerr.: 8.049718e-06, time: 0.193233
+PDEFilter solver:  iter: 6, rerr.: 6.366107e-12, time: 0.030829
+It.: 66, obj.: 1.450131, g[0]: 0.003129, ch.: 0.200000, time: 1.110403
+State solver:  iter: 2, rerr.: 7.816898e-06, time: 0.513153
+PDEFilter solver:  iter: 7, rerr.: 4.422386e-17, time: 0.035655
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030391
+State solver:  iter: 0, rerr.: 7.816898e-06, time: 0.193072
+State solver:  iter: 0, rerr.: 7.816898e-06, time: 0.193244
+PDEFilter solver:  iter: 6, rerr.: 6.362361e-12, time: 0.031058
+It.: 67, obj.: 1.450101, g[0]: 0.003129, ch.: 0.200000, time: 1.110867
+State solver:  iter: 2, rerr.: 9.046698e-06, time: 0.513646
+PDEFilter solver:  iter: 7, rerr.: 4.421565e-17, time: 0.035720
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030252
+State solver:  iter: 0, rerr.: 9.046698e-06, time: 0.193212
+State solver:  iter: 0, rerr.: 9.046698e-06, time: 0.193459
+PDEFilter solver:  iter: 6, rerr.: 6.362071e-12, time: 0.030793
+It.: 68, obj.: 1.450065, g[0]: 0.003125, ch.: 0.200000, time: 1.111178
+State solver:  iter: 2, rerr.: 8.471054e-06, time: 0.514093
+PDEFilter solver:  iter: 7, rerr.: 4.420716e-17, time: 0.035629
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030338
+State solver:  iter: 0, rerr.: 8.471054e-06, time: 0.193137
+State solver:  iter: 0, rerr.: 8.471054e-06, time: 0.193032
+PDEFilter solver:  iter: 6, rerr.: 6.365152e-12, time: 0.030750
+It.: 69, obj.: 1.450025, g[0]: 0.003122, ch.: 0.195693, time: 1.112060
+State solver:  iter: 2, rerr.: 7.903957e-06, time: 0.514268
+PDEFilter solver:  iter: 7, rerr.: 4.419835e-17, time: 0.035714
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030244
+State solver:  iter: 0, rerr.: 7.903957e-06, time: 0.193194
+State solver:  iter: 0, rerr.: 7.903957e-06, time: 0.193032
+PDEFilter solver:  iter: 6, rerr.: 6.361927e-12, time: 0.030772
+It.: 70, obj.: 1.449984, g[0]: 0.003116, ch.: 0.200000, time: 1.110666
+State solver:  iter: 2, rerr.: 6.958801e-06, time: 0.513856
+PDEFilter solver:  iter: 7, rerr.: 4.418929e-17, time: 0.035838
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030404
+State solver:  iter: 0, rerr.: 6.958801e-06, time: 0.193149
+State solver:  iter: 0, rerr.: 6.958801e-06, time: 0.193188
+PDEFilter solver:  iter: 6, rerr.: 6.361481e-12, time: 0.030828
+It.: 71, obj.: 1.449927, g[0]: 0.003109, ch.: 0.174641, time: 1.110982
+State solver:  iter: 2, rerr.: 6.610377e-06, time: 0.513648
+PDEFilter solver:  iter: 7, rerr.: 4.418114e-17, time: 0.035658
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030109
+State solver:  iter: 0, rerr.: 6.610377e-06, time: 0.192953
+State solver:  iter: 0, rerr.: 6.610377e-06, time: 0.192969
+PDEFilter solver:  iter: 6, rerr.: 6.364137e-12, time: 0.030732
+It.: 72, obj.: 1.449861, g[0]: 0.003104, ch.: 0.188221, time: 1.109650
+State solver:  iter: 2, rerr.: 6.500962e-06, time: 0.513282
+PDEFilter solver:  iter: 7, rerr.: 4.417459e-17, time: 0.035511
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030243
+State solver:  iter: 0, rerr.: 6.500962e-06, time: 0.193102
+State solver:  iter: 0, rerr.: 6.500962e-06, time: 0.192844
+PDEFilter solver:  iter: 6, rerr.: 6.370928e-12, time: 0.030800
+It.: 73, obj.: 1.449794, g[0]: 0.003101, ch.: 0.200000, time: 1.109510
+State solver:  iter: 2, rerr.: 8.184842e-06, time: 0.513770
+PDEFilter solver:  iter: 7, rerr.: 4.416901e-17, time: 0.035661
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030230
+State solver:  iter: 0, rerr.: 8.184842e-06, time: 0.193191
+State solver:  iter: 0, rerr.: 8.184842e-06, time: 0.192762
+PDEFilter solver:  iter: 6, rerr.: 6.382406e-12, time: 0.030799
+It.: 74, obj.: 1.449742, g[0]: 0.003092, ch.: 0.200000, time: 1.110086
+State solver:  iter: 2, rerr.: 7.068274e-06, time: 0.513777
+PDEFilter solver:  iter: 7, rerr.: 4.416384e-17, time: 0.035911
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030123
+State solver:  iter: 0, rerr.: 7.068274e-06, time: 0.192933
+State solver:  iter: 0, rerr.: 7.068274e-06, time: 0.193219
+PDEFilter solver:  iter: 6, rerr.: 6.394879e-12, time: 0.030717
+It.: 75, obj.: 1.449694, g[0]: 0.003084, ch.: 0.200000, time: 1.111625
+State solver:  iter: 2, rerr.: 6.291204e-06, time: 0.513651
+PDEFilter solver:  iter: 7, rerr.: 4.415938e-17, time: 0.035704
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030442
+State solver:  iter: 0, rerr.: 6.291204e-06, time: 0.192920
+State solver:  iter: 0, rerr.: 6.291204e-06, time: 0.193012
+PDEFilter solver:  iter: 6, rerr.: 6.404860e-12, time: 0.030886
+It.: 76, obj.: 1.449643, g[0]: 0.003078, ch.: 0.192242, time: 1.111357
+State solver:  iter: 2, rerr.: 6.251102e-06, time: 0.513532
+PDEFilter solver:  iter: 7, rerr.: 4.415585e-17, time: 0.035697
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030698
+State solver:  iter: 0, rerr.: 6.251102e-06, time: 0.192937
+State solver:  iter: 0, rerr.: 6.251102e-06, time: 0.193062
+PDEFilter solver:  iter: 6, rerr.: 6.409838e-12, time: 0.030775
+It.: 77, obj.: 1.449598, g[0]: 0.003078, ch.: 0.200000, time: 1.110549
+State solver:  iter: 2, rerr.: 6.319808e-06, time: 0.513848
+PDEFilter solver:  iter: 7, rerr.: 4.415249e-17, time: 0.035762
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030281
+State solver:  iter: 0, rerr.: 6.319808e-06, time: 0.193059
+State solver:  iter: 0, rerr.: 6.319808e-06, time: 0.193054
+PDEFilter solver:  iter: 6, rerr.: 6.410793e-12, time: 0.030804
+It.: 78, obj.: 1.449546, g[0]: 0.003078, ch.: 0.167326, time: 1.110845
+State solver:  iter: 2, rerr.: 6.433936e-06, time: 0.514935
+PDEFilter solver:  iter: 7, rerr.: 4.414944e-17, time: 0.035657
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030144
+State solver:  iter: 0, rerr.: 6.433936e-06, time: 0.193021
+State solver:  iter: 0, rerr.: 6.433936e-06, time: 0.193226
+PDEFilter solver:  iter: 6, rerr.: 6.412529e-12, time: 0.030779
+It.: 79, obj.: 1.449503, g[0]: 0.003076, ch.: 0.199364, time: 1.111126
+State solver:  iter: 2, rerr.: 6.568454e-06, time: 0.513725
+PDEFilter solver:  iter: 7, rerr.: 4.414623e-17, time: 0.035734
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030151
+State solver:  iter: 0, rerr.: 6.568454e-06, time: 0.192976
+State solver:  iter: 0, rerr.: 6.568454e-06, time: 0.193017
+PDEFilter solver:  iter: 6, rerr.: 6.415680e-12, time: 0.030758
+It.: 80, obj.: 1.449462, g[0]: 0.003071, ch.: 0.190522, time: 1.109959
+State solver:  iter: 2, rerr.: 6.348700e-06, time: 0.513826
+PDEFilter solver:  iter: 7, rerr.: 4.414279e-17, time: 0.035666
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030262
+State solver:  iter: 0, rerr.: 6.348700e-06, time: 0.192998
+State solver:  iter: 0, rerr.: 6.348700e-06, time: 0.192779
+PDEFilter solver:  iter: 6, rerr.: 6.415675e-12, time: 0.030812
+It.: 81, obj.: 1.449424, g[0]: 0.003065, ch.: 0.191596, time: 1.110216
+State solver:  iter: 2, rerr.: 6.136827e-06, time: 0.513690
+PDEFilter solver:  iter: 7, rerr.: 4.413865e-17, time: 0.035717
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030156
+State solver:  iter: 0, rerr.: 6.136827e-06, time: 0.193148
+State solver:  iter: 0, rerr.: 6.136827e-06, time: 0.193069
+PDEFilter solver:  iter: 6, rerr.: 6.418462e-12, time: 0.030724
+It.: 82, obj.: 1.449394, g[0]: 0.003062, ch.: 0.200000, time: 1.111244
+State solver:  iter: 2, rerr.: 6.054149e-06, time: 0.513542
+PDEFilter solver:  iter: 7, rerr.: 4.413440e-17, time: 0.035786
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030250
+State solver:  iter: 0, rerr.: 6.054149e-06, time: 0.192947
+State solver:  iter: 0, rerr.: 6.054149e-06, time: 0.193110
+PDEFilter solver:  iter: 6, rerr.: 6.425420e-12, time: 0.030770
+It.: 83, obj.: 1.449359, g[0]: 0.003059, ch.: 0.183707, time: 1.110425
+State solver:  iter: 2, rerr.: 6.066251e-06, time: 0.513743
+PDEFilter solver:  iter: 7, rerr.: 4.413031e-17, time: 0.035835
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030348
+State solver:  iter: 0, rerr.: 6.066251e-06, time: 0.193430
+State solver:  iter: 0, rerr.: 6.066251e-06, time: 0.192923
+PDEFilter solver:  iter: 6, rerr.: 6.431359e-12, time: 0.030807
+It.: 84, obj.: 1.449327, g[0]: 0.003055, ch.: 0.200000, time: 1.110645
+State solver:  iter: 2, rerr.: 6.376820e-06, time: 0.513893
+PDEFilter solver:  iter: 7, rerr.: 4.412673e-17, time: 0.035661
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030245
+State solver:  iter: 0, rerr.: 6.376820e-06, time: 0.192901
+State solver:  iter: 0, rerr.: 6.376820e-06, time: 0.193220
+PDEFilter solver:  iter: 6, rerr.: 6.437217e-12, time: 0.031257
+It.: 85, obj.: 1.449299, g[0]: 0.003056, ch.: 0.200000, time: 1.111091
+State solver:  iter: 2, rerr.: 6.112623e-06, time: 0.513733
+PDEFilter solver:  iter: 7, rerr.: 4.412328e-17, time: 0.035684
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030264
+State solver:  iter: 0, rerr.: 6.112623e-06, time: 0.193138
+State solver:  iter: 0, rerr.: 6.112623e-06, time: 0.192858
+PDEFilter solver:  iter: 6, rerr.: 6.439316e-12, time: 0.030714
+It.: 86, obj.: 1.449252, g[0]: 0.003060, ch.: 0.200000, time: 1.109907
+State solver:  iter: 2, rerr.: 5.437439e-06, time: 0.514123
+PDEFilter solver:  iter: 7, rerr.: 4.411904e-17, time: 0.035624
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030201
+State solver:  iter: 0, rerr.: 5.437439e-06, time: 0.192983
+State solver:  iter: 0, rerr.: 5.437439e-06, time: 0.192932
+PDEFilter solver:  iter: 6, rerr.: 6.438898e-12, time: 0.033605
+It.: 87, obj.: 1.449177, g[0]: 0.003064, ch.: 0.200000, time: 1.112946
+State solver:  iter: 2, rerr.: 5.004383e-06, time: 0.513257
+PDEFilter solver:  iter: 7, rerr.: 4.411462e-17, time: 0.035662
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030163
+State solver:  iter: 0, rerr.: 5.004383e-06, time: 0.192991
+State solver:  iter: 0, rerr.: 5.004383e-06, time: 0.193040
+PDEFilter solver:  iter: 6, rerr.: 6.440653e-12, time: 0.031216
+It.: 88, obj.: 1.449104, g[0]: 0.003065, ch.: 0.184352, time: 1.109905
+State solver:  iter: 2, rerr.: 4.881361e-06, time: 0.513920
+PDEFilter solver:  iter: 7, rerr.: 4.411043e-17, time: 0.035586
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030235
+State solver:  iter: 0, rerr.: 4.881361e-06, time: 0.193111
+State solver:  iter: 0, rerr.: 4.881361e-06, time: 0.192815
+PDEFilter solver:  iter: 6, rerr.: 6.439590e-12, time: 0.030728
+It.: 89, obj.: 1.449050, g[0]: 0.003065, ch.: 0.200000, time: 1.110099
+State solver:  iter: 2, rerr.: 4.875991e-06, time: 0.513613
+PDEFilter solver:  iter: 7, rerr.: 4.410694e-17, time: 0.035580
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030185
+State solver:  iter: 0, rerr.: 4.875991e-06, time: 0.192764
+State solver:  iter: 0, rerr.: 4.875991e-06, time: 0.192848
+PDEFilter solver:  iter: 6, rerr.: 6.440074e-12, time: 0.030748
+It.: 90, obj.: 1.449022, g[0]: 0.003069, ch.: 0.200000, time: 1.109544
+State solver:  iter: 2, rerr.: 5.265446e-06, time: 0.513771
+PDEFilter solver:  iter: 7, rerr.: 4.410293e-17, time: 0.035604
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030204
+State solver:  iter: 0, rerr.: 5.265446e-06, time: 0.193076
+State solver:  iter: 0, rerr.: 5.265446e-06, time: 0.193183
+PDEFilter solver:  iter: 6, rerr.: 6.441042e-12, time: 0.030761
+It.: 91, obj.: 1.448983, g[0]: 0.003074, ch.: 0.198041, time: 1.110137
+State solver:  iter: 2, rerr.: 5.790097e-06, time: 0.513872
+PDEFilter solver:  iter: 7, rerr.: 4.409896e-17, time: 0.035726
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030158
+State solver:  iter: 0, rerr.: 5.790097e-06, time: 0.192675
+State solver:  iter: 0, rerr.: 5.790097e-06, time: 0.193091
+PDEFilter solver:  iter: 6, rerr.: 6.440571e-12, time: 0.030681
+It.: 92, obj.: 1.448938, g[0]: 0.003083, ch.: 0.197444, time: 1.110861
+State solver:  iter: 2, rerr.: 6.123160e-06, time: 0.513576
+PDEFilter solver:  iter: 7, rerr.: 4.409493e-17, time: 0.035801
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030150
+State solver:  iter: 0, rerr.: 6.123160e-06, time: 0.192952
+State solver:  iter: 0, rerr.: 6.123160e-06, time: 0.192856
+PDEFilter solver:  iter: 6, rerr.: 6.441153e-12, time: 0.030922
+It.: 93, obj.: 1.448902, g[0]: 0.003091, ch.: 0.200000, time: 1.109668
+State solver:  iter: 2, rerr.: 6.548445e-06, time: 0.513514
+PDEFilter solver:  iter: 7, rerr.: 4.409021e-17, time: 0.035675
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.031421
+State solver:  iter: 0, rerr.: 6.548445e-06, time: 0.193175
+State solver:  iter: 0, rerr.: 6.548445e-06, time: 0.192942
+PDEFilter solver:  iter: 6, rerr.: 6.442701e-12, time: 0.030740
+It.: 94, obj.: 1.448847, g[0]: 0.003100, ch.: 0.200000, time: 1.112801
+State solver:  iter: 2, rerr.: 6.810639e-06, time: 0.514089
+PDEFilter solver:  iter: 7, rerr.: 4.408498e-17, time: 0.035692
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030281
+State solver:  iter: 0, rerr.: 6.810639e-06, time: 0.193176
+State solver:  iter: 0, rerr.: 6.810639e-06, time: 0.192927
+PDEFilter solver:  iter: 6, rerr.: 6.443409e-12, time: 0.030819
+It.: 95, obj.: 1.448775, g[0]: 0.003110, ch.: 0.185583, time: 1.111083
+State solver:  iter: 2, rerr.: 6.844708e-06, time: 0.513887
+PDEFilter solver:  iter: 7, rerr.: 4.408010e-17, time: 0.035757
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030181
+State solver:  iter: 0, rerr.: 6.844708e-06, time: 0.194464
+State solver:  iter: 0, rerr.: 6.844708e-06, time: 0.192932
+PDEFilter solver:  iter: 6, rerr.: 6.443738e-12, time: 0.030721
+It.: 96, obj.: 1.448697, g[0]: 0.003120, ch.: 0.187868, time: 1.112134
+State solver:  iter: 2, rerr.: 6.813775e-06, time: 0.512969
+PDEFilter solver:  iter: 7, rerr.: 4.407546e-17, time: 0.035717
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030226
+State solver:  iter: 0, rerr.: 6.813775e-06, time: 0.193128
+State solver:  iter: 0, rerr.: 6.813775e-06, time: 0.192732
+PDEFilter solver:  iter: 6, rerr.: 6.440890e-12, time: 0.030751
+It.: 97, obj.: 1.448619, g[0]: 0.003129, ch.: 0.200000, time: 1.109659
+State solver:  iter: 2, rerr.: 6.860662e-06, time: 0.513612
+PDEFilter solver:  iter: 7, rerr.: 4.407080e-17, time: 0.035908
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030252
+State solver:  iter: 0, rerr.: 6.860662e-06, time: 0.192841
+State solver:  iter: 0, rerr.: 6.860662e-06, time: 0.193032
+PDEFilter solver:  iter: 6, rerr.: 6.439723e-12, time: 0.030897
+It.: 98, obj.: 1.448541, g[0]: 0.003138, ch.: 0.165947, time: 1.110475
+State solver:  iter: 2, rerr.: 6.664437e-06, time: 0.513570
+PDEFilter solver:  iter: 7, rerr.: 4.406672e-17, time: 0.035772
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030238
+State solver:  iter: 0, rerr.: 6.664437e-06, time: 0.192736
+State solver:  iter: 0, rerr.: 6.664437e-06, time: 0.192878
+PDEFilter solver:  iter: 6, rerr.: 6.443476e-12, time: 0.030671
+It.: 99, obj.: 1.448466, g[0]: 0.003151, ch.: 0.189334, time: 1.109380
+State solver:  iter: 2, rerr.: 6.814598e-06, time: 0.513234
+PDEFilter solver:  iter: 7, rerr.: 4.406214e-17, time: 0.035906
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030599
+State solver:  iter: 0, rerr.: 6.814598e-06, time: 0.193076
+State solver:  iter: 0, rerr.: 6.814598e-06, time: 0.192938
+PDEFilter solver:  iter: 6, rerr.: 6.449834e-12, time: 0.030776
+It.: 100, obj.: 1.448385, g[0]: 0.003160, ch.: 0.177627, time: 1.110049
+State solver:  iter: 2, rerr.: 6.103059e-06, time: 0.514057
+PDEFilter solver:  iter: 7, rerr.: 4.405671e-17, time: 0.035692
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030273
+State solver:  iter: 0, rerr.: 6.103059e-06, time: 0.193062
+State solver:  iter: 0, rerr.: 6.103059e-06, time: 0.193318
+PDEFilter solver:  iter: 6, rerr.: 6.457681e-12, time: 0.030686
+It.: 101, obj.: 1.448306, g[0]: 0.003163, ch.: 0.195041, time: 1.111004
+State solver:  iter: 2, rerr.: 6.002747e-06, time: 0.514144
+PDEFilter solver:  iter: 7, rerr.: 4.405152e-17, time: 0.035674
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030168
+State solver:  iter: 0, rerr.: 6.002747e-06, time: 0.193265
+State solver:  iter: 0, rerr.: 6.002747e-06, time: 0.192785
+PDEFilter solver:  iter: 6, rerr.: 6.466442e-12, time: 0.030743
+It.: 102, obj.: 1.448237, g[0]: 0.003166, ch.: 0.179170, time: 1.116043
+State solver:  iter: 2, rerr.: 5.801880e-06, time: 0.512976
+PDEFilter solver:  iter: 7, rerr.: 4.404686e-17, time: 0.035630
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030092
+State solver:  iter: 0, rerr.: 5.801880e-06, time: 0.193108
+State solver:  iter: 0, rerr.: 5.801880e-06, time: 0.192758
+PDEFilter solver:  iter: 6, rerr.: 6.479750e-12, time: 0.031497
+It.: 103, obj.: 1.448178, g[0]: 0.003169, ch.: 0.188493, time: 1.110167
+State solver:  iter: 2, rerr.: 5.580916e-06, time: 0.513473
+PDEFilter solver:  iter: 7, rerr.: 4.404277e-17, time: 0.036375
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030931
+State solver:  iter: 0, rerr.: 5.580916e-06, time: 0.192948
+State solver:  iter: 0, rerr.: 5.580916e-06, time: 0.192905
+PDEFilter solver:  iter: 6, rerr.: 6.487309e-12, time: 0.030726
+It.: 104, obj.: 1.448117, g[0]: 0.003175, ch.: 0.181812, time: 1.111155
+State solver:  iter: 2, rerr.: 5.570803e-06, time: 0.514174
+PDEFilter solver:  iter: 7, rerr.: 4.403886e-17, time: 0.035695
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030274
+State solver:  iter: 0, rerr.: 5.570803e-06, time: 0.193081
+State solver:  iter: 0, rerr.: 5.570803e-06, time: 0.192696
+PDEFilter solver:  iter: 6, rerr.: 6.493889e-12, time: 0.030784
+It.: 105, obj.: 1.448063, g[0]: 0.003183, ch.: 0.200000, time: 1.110565
+State solver:  iter: 2, rerr.: 5.798793e-06, time: 0.513558
+PDEFilter solver:  iter: 7, rerr.: 4.403531e-17, time: 0.035674
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030184
+State solver:  iter: 0, rerr.: 5.798793e-06, time: 0.193016
+State solver:  iter: 0, rerr.: 5.798793e-06, time: 0.192869
+PDEFilter solver:  iter: 6, rerr.: 6.497072e-12, time: 0.030757
+It.: 106, obj.: 1.448016, g[0]: 0.003192, ch.: 0.200000, time: 1.109718
+State solver:  iter: 2, rerr.: 5.755659e-06, time: 0.514295
+PDEFilter solver:  iter: 7, rerr.: 4.403103e-17, time: 0.035711
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030218
+State solver:  iter: 0, rerr.: 5.755659e-06, time: 0.192728
+State solver:  iter: 0, rerr.: 5.755659e-06, time: 0.193091
+PDEFilter solver:  iter: 6, rerr.: 6.501100e-12, time: 0.031361
+It.: 107, obj.: 1.447950, g[0]: 0.003201, ch.: 0.195510, time: 1.112014
+State solver:  iter: 2, rerr.: 5.690360e-06, time: 0.513794
+PDEFilter solver:  iter: 7, rerr.: 4.402633e-17, time: 0.035936
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030221
+State solver:  iter: 0, rerr.: 5.690360e-06, time: 0.193128
+State solver:  iter: 0, rerr.: 5.690360e-06, time: 0.192881
+PDEFilter solver:  iter: 6, rerr.: 6.505453e-12, time: 0.030720
+It.: 108, obj.: 1.447871, g[0]: 0.003211, ch.: 0.189676, time: 1.110425
+State solver:  iter: 2, rerr.: 5.268189e-06, time: 0.513331
+PDEFilter solver:  iter: 7, rerr.: 4.402194e-17, time: 0.035669
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030114
+State solver:  iter: 0, rerr.: 5.268189e-06, time: 0.193072
+State solver:  iter: 0, rerr.: 5.268189e-06, time: 0.193133
+PDEFilter solver:  iter: 6, rerr.: 6.507981e-12, time: 0.030652
+It.: 109, obj.: 1.447794, g[0]: 0.003219, ch.: 0.180326, time: 1.116475
+State solver:  iter: 2, rerr.: 4.887335e-06, time: 0.514449
+PDEFilter solver:  iter: 7, rerr.: 4.401787e-17, time: 0.035737
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030143
+State solver:  iter: 0, rerr.: 4.887335e-06, time: 0.193225
+State solver:  iter: 0, rerr.: 4.887335e-06, time: 0.192707
+PDEFilter solver:  iter: 6, rerr.: 6.508310e-12, time: 0.030745
+It.: 110, obj.: 1.447721, g[0]: 0.003227, ch.: 0.190799, time: 1.110689
+State solver:  iter: 2, rerr.: 4.526976e-06, time: 0.513721
+PDEFilter solver:  iter: 7, rerr.: 4.401342e-17, time: 0.035815
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030238
+State solver:  iter: 0, rerr.: 4.526976e-06, time: 0.192999
+State solver:  iter: 0, rerr.: 4.526976e-06, time: 0.193074
+PDEFilter solver:  iter: 6, rerr.: 6.506798e-12, time: 0.030755
+It.: 111, obj.: 1.447640, g[0]: 0.003234, ch.: 0.189990, time: 1.110475
+State solver:  iter: 2, rerr.: 4.433939e-06, time: 0.514152
+PDEFilter solver:  iter: 7, rerr.: 4.400991e-17, time: 0.035688
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030164
+State solver:  iter: 0, rerr.: 4.433939e-06, time: 0.193164
+State solver:  iter: 0, rerr.: 4.433939e-06, time: 0.193100
+PDEFilter solver:  iter: 6, rerr.: 6.504460e-12, time: 0.030753
+It.: 112, obj.: 1.447585, g[0]: 0.003241, ch.: 0.200000, time: 1.110631
+State solver:  iter: 2, rerr.: 5.243679e-06, time: 0.513312
+PDEFilter solver:  iter: 7, rerr.: 4.400700e-17, time: 0.035598
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030167
+State solver:  iter: 0, rerr.: 5.243679e-06, time: 0.193057
+State solver:  iter: 0, rerr.: 5.243679e-06, time: 0.193029
+PDEFilter solver:  iter: 6, rerr.: 6.501978e-12, time: 0.030675
+It.: 113, obj.: 1.447539, g[0]: 0.003252, ch.: 0.187819, time: 1.109473
+State solver:  iter: 2, rerr.: 5.587687e-06, time: 0.513168
+PDEFilter solver:  iter: 7, rerr.: 4.400344e-17, time: 0.035581
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030287
+State solver:  iter: 0, rerr.: 5.587687e-06, time: 0.193285
+State solver:  iter: 0, rerr.: 5.587687e-06, time: 0.192991
+PDEFilter solver:  iter: 6, rerr.: 6.499767e-12, time: 0.030804
+It.: 114, obj.: 1.447472, g[0]: 0.003263, ch.: 0.200000, time: 1.110527
+State solver:  iter: 2, rerr.: 5.380538e-06, time: 0.512908
+PDEFilter solver:  iter: 7, rerr.: 4.399961e-17, time: 0.035622
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030150
+State solver:  iter: 0, rerr.: 5.380538e-06, time: 0.193317
+State solver:  iter: 0, rerr.: 5.380538e-06, time: 0.192873
+PDEFilter solver:  iter: 6, rerr.: 6.500047e-12, time: 0.030741
+It.: 115, obj.: 1.447402, g[0]: 0.003274, ch.: 0.200000, time: 1.109153
+State solver:  iter: 2, rerr.: 5.194685e-06, time: 0.513471
+PDEFilter solver:  iter: 7, rerr.: 4.399573e-17, time: 0.036072
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030364
+State solver:  iter: 0, rerr.: 5.194685e-06, time: 0.193077
+State solver:  iter: 0, rerr.: 5.194685e-06, time: 0.192994
+PDEFilter solver:  iter: 6, rerr.: 6.502041e-12, time: 0.030781
+It.: 116, obj.: 1.447320, g[0]: 0.003284, ch.: 0.200000, time: 1.110458
+State solver:  iter: 2, rerr.: 5.369802e-06, time: 0.513591
+PDEFilter solver:  iter: 7, rerr.: 4.399230e-17, time: 0.035638
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030190
+State solver:  iter: 0, rerr.: 5.369802e-06, time: 0.193057
+State solver:  iter: 0, rerr.: 5.369802e-06, time: 0.193082
+PDEFilter solver:  iter: 6, rerr.: 6.506096e-12, time: 0.030786
+It.: 117, obj.: 1.447256, g[0]: 0.003296, ch.: 0.200000, time: 1.109953
+State solver:  iter: 2, rerr.: 5.053060e-06, time: 0.513672
+PDEFilter solver:  iter: 7, rerr.: 4.398849e-17, time: 0.035620
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030124
+State solver:  iter: 0, rerr.: 5.053060e-06, time: 0.192996
+State solver:  iter: 0, rerr.: 5.053060e-06, time: 0.193021
+PDEFilter solver:  iter: 6, rerr.: 6.510453e-12, time: 0.030736
+It.: 118, obj.: 1.447192, g[0]: 0.003306, ch.: 0.196437, time: 1.110158
+State solver:  iter: 2, rerr.: 5.505350e-06, time: 0.513668
+PDEFilter solver:  iter: 7, rerr.: 4.398493e-17, time: 0.035707
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.033467
+State solver:  iter: 0, rerr.: 5.505350e-06, time: 0.193043
+State solver:  iter: 0, rerr.: 5.505350e-06, time: 0.192916
+PDEFilter solver:  iter: 6, rerr.: 6.511897e-12, time: 0.030761
+It.: 119, obj.: 1.447127, g[0]: 0.003316, ch.: 0.200000, time: 1.113543
+State solver:  iter: 2, rerr.: 5.729853e-06, time: 0.513849
+PDEFilter solver:  iter: 7, rerr.: 4.398114e-17, time: 0.035623
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030165
+State solver:  iter: 0, rerr.: 5.729853e-06, time: 0.192751
+State solver:  iter: 0, rerr.: 5.729853e-06, time: 0.192935
+PDEFilter solver:  iter: 6, rerr.: 6.512997e-12, time: 0.030699
+It.: 120, obj.: 1.447053, g[0]: 0.003328, ch.: 0.200000, time: 1.109837
+State solver:  iter: 2, rerr.: 5.608742e-06, time: 0.513711
+PDEFilter solver:  iter: 7, rerr.: 4.397732e-17, time: 0.035577
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030298
+State solver:  iter: 0, rerr.: 5.608742e-06, time: 0.193193
+State solver:  iter: 0, rerr.: 5.608742e-06, time: 0.192925
+PDEFilter solver:  iter: 6, rerr.: 6.517144e-12, time: 0.030747
+It.: 121, obj.: 1.446984, g[0]: 0.003341, ch.: 0.200000, time: 1.110382
+State solver:  iter: 2, rerr.: 5.183216e-06, time: 0.513446
+PDEFilter solver:  iter: 7, rerr.: 4.397263e-17, time: 0.035597
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030218
+State solver:  iter: 0, rerr.: 5.183216e-06, time: 0.193056
+State solver:  iter: 0, rerr.: 5.183216e-06, time: 0.193009
+PDEFilter solver:  iter: 6, rerr.: 6.522211e-12, time: 0.030818
+It.: 122, obj.: 1.446905, g[0]: 0.003349, ch.: 0.190399, time: 1.110107
+State solver:  iter: 2, rerr.: 5.118637e-06, time: 0.514183
+PDEFilter solver:  iter: 7, rerr.: 4.396860e-17, time: 0.035700
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030154
+State solver:  iter: 0, rerr.: 5.118637e-06, time: 0.192822
+State solver:  iter: 0, rerr.: 5.118637e-06, time: 0.192711
+PDEFilter solver:  iter: 6, rerr.: 6.524458e-12, time: 0.030706
+It.: 123, obj.: 1.446837, g[0]: 0.003359, ch.: 0.200000, time: 1.110571
+State solver:  iter: 2, rerr.: 4.915434e-06, time: 0.513527
+PDEFilter solver:  iter: 7, rerr.: 4.396455e-17, time: 0.036226
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030268
+State solver:  iter: 0, rerr.: 4.915434e-06, time: 0.192981
+State solver:  iter: 0, rerr.: 4.915434e-06, time: 0.192987
+PDEFilter solver:  iter: 6, rerr.: 6.525327e-12, time: 0.030766
+It.: 124, obj.: 1.446778, g[0]: 0.003369, ch.: 0.200000, time: 1.110333
+State solver:  iter: 2, rerr.: 5.016161e-06, time: 0.514075
+PDEFilter solver:  iter: 7, rerr.: 4.395983e-17, time: 0.035635
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030445
+State solver:  iter: 0, rerr.: 5.016161e-06, time: 0.193036
+State solver:  iter: 0, rerr.: 5.016161e-06, time: 0.192891
+PDEFilter solver:  iter: 6, rerr.: 6.527423e-12, time: 0.030656
+It.: 125, obj.: 1.446706, g[0]: 0.003377, ch.: 0.200000, time: 1.116856
+State solver:  iter: 2, rerr.: 4.774668e-06, time: 0.514041
+PDEFilter solver:  iter: 7, rerr.: 4.395498e-17, time: 0.035690
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030184
+State solver:  iter: 0, rerr.: 4.774668e-06, time: 0.192780
+State solver:  iter: 0, rerr.: 4.774668e-06, time: 0.192936
+PDEFilter solver:  iter: 6, rerr.: 6.529327e-12, time: 0.030828
+It.: 126, obj.: 1.446625, g[0]: 0.003384, ch.: 0.200000, time: 1.110114
+State solver:  iter: 2, rerr.: 3.988825e-06, time: 0.513665
+PDEFilter solver:  iter: 7, rerr.: 4.394999e-17, time: 0.035742
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030198
+State solver:  iter: 0, rerr.: 3.988825e-06, time: 0.193301
+State solver:  iter: 0, rerr.: 3.988825e-06, time: 0.192897
+PDEFilter solver:  iter: 6, rerr.: 6.530792e-12, time: 0.030847
+It.: 127, obj.: 1.446533, g[0]: 0.003388, ch.: 0.189918, time: 1.110581
+State solver:  iter: 2, rerr.: 3.241925e-06, time: 0.514001
+PDEFilter solver:  iter: 7, rerr.: 4.394672e-17, time: 0.035551
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030217
+State solver:  iter: 0, rerr.: 3.241925e-06, time: 0.192991
+State solver:  iter: 0, rerr.: 3.241925e-06, time: 0.192877
+PDEFilter solver:  iter: 6, rerr.: 6.532010e-12, time: 0.030735
+It.: 128, obj.: 1.446478, g[0]: 0.003392, ch.: 0.200000, time: 1.109988
+State solver:  iter: 2, rerr.: 3.311213e-06, time: 0.513054
+PDEFilter solver:  iter: 7, rerr.: 4.394415e-17, time: 0.035676
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030312
+State solver:  iter: 0, rerr.: 3.311213e-06, time: 0.193190
+State solver:  iter: 0, rerr.: 3.311213e-06, time: 0.193002
+PDEFilter solver:  iter: 6, rerr.: 6.532853e-12, time: 0.030830
+It.: 129, obj.: 1.446443, g[0]: 0.003396, ch.: 0.199562, time: 1.109626
+State solver:  iter: 2, rerr.: 3.438283e-06, time: 0.512794
+PDEFilter solver:  iter: 7, rerr.: 4.394083e-17, time: 0.035740
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030293
+State solver:  iter: 0, rerr.: 3.438283e-06, time: 0.192952
+State solver:  iter: 0, rerr.: 3.438283e-06, time: 0.192870
+PDEFilter solver:  iter: 6, rerr.: 6.533193e-12, time: 0.030715
+It.: 130, obj.: 1.446389, g[0]: 0.003399, ch.: 0.190171, time: 1.109453
+State solver:  iter: 2, rerr.: 2.834005e-06, time: 0.513659
+PDEFilter solver:  iter: 7, rerr.: 4.393779e-17, time: 0.035750
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030192
+State solver:  iter: 0, rerr.: 2.834005e-06, time: 0.192866
+State solver:  iter: 0, rerr.: 2.834005e-06, time: 0.192983
+PDEFilter solver:  iter: 6, rerr.: 6.533376e-12, time: 0.030749
+It.: 131, obj.: 1.446333, g[0]: 0.003402, ch.: 0.184533, time: 1.115425
+State solver:  iter: 2, rerr.: 3.002039e-06, time: 0.513836
+PDEFilter solver:  iter: 7, rerr.: 4.393515e-17, time: 0.036184
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030263
+State solver:  iter: 0, rerr.: 3.002039e-06, time: 0.192969
+State solver:  iter: 0, rerr.: 3.002039e-06, time: 0.193014
+PDEFilter solver:  iter: 6, rerr.: 6.534585e-12, time: 0.030607
+It.: 132, obj.: 1.446288, g[0]: 0.003403, ch.: 0.200000, time: 1.110527
+State solver:  iter: 2, rerr.: 3.215237e-06, time: 0.529581
+PDEFilter solver:  iter: 7, rerr.: 4.393272e-17, time: 0.037054
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.031419
+State solver:  iter: 0, rerr.: 3.215237e-06, time: 0.195835
+State solver:  iter: 0, rerr.: 3.215237e-06, time: 0.215827
+PDEFilter solver:  iter: 6, rerr.: 6.535732e-12, time: 0.037922
+It.: 133, obj.: 1.446251, g[0]: 0.003405, ch.: 0.200000, time: 1.238447
+State solver:  iter: 2, rerr.: 2.422259e-06, time: 0.572548
+PDEFilter solver:  iter: 7, rerr.: 4.393047e-17, time: 0.044326
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.037633
+State solver:  iter: 0, rerr.: 2.422259e-06, time: 0.218091
+State solver:  iter: 0, rerr.: 2.422259e-06, time: 0.217716
+PDEFilter solver:  iter: 6, rerr.: 6.536630e-12, time: 0.038274
+It.: 134, obj.: 1.446220, g[0]: 0.003407, ch.: 0.194190, time: 1.360269
+State solver:  iter: 2, rerr.: 2.680819e-06, time: 0.575259
+PDEFilter solver:  iter: 7, rerr.: 4.392863e-17, time: 0.044275
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.037694
+State solver:  iter: 0, rerr.: 2.680819e-06, time: 0.193198
+State solver:  iter: 0, rerr.: 2.680819e-06, time: 0.193133
+PDEFilter solver:  iter: 6, rerr.: 6.537792e-12, time: 0.030744
+It.: 135, obj.: 1.446190, g[0]: 0.003410, ch.: 0.190977, time: 1.230290
+State solver:  iter: 2, rerr.: 3.069115e-06, time: 0.546784
+PDEFilter solver:  iter: 7, rerr.: 4.392651e-17, time: 0.037367
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030154
+State solver:  iter: 0, rerr.: 3.069115e-06, time: 0.192866
+State solver:  iter: 0, rerr.: 3.069115e-06, time: 0.192989
+PDEFilter solver:  iter: 6, rerr.: 6.537473e-12, time: 0.030776
+It.: 136, obj.: 1.446162, g[0]: 0.003413, ch.: 0.200000, time: 1.145704
+State solver:  iter: 2, rerr.: 3.175439e-06, time: 0.513945
+PDEFilter solver:  iter: 7, rerr.: 4.392381e-17, time: 0.035819
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030180
+State solver:  iter: 0, rerr.: 3.175439e-06, time: 0.192914
+State solver:  iter: 0, rerr.: 3.175439e-06, time: 0.193039
+PDEFilter solver:  iter: 6, rerr.: 6.535062e-12, time: 0.030825
+It.: 137, obj.: 1.446129, g[0]: 0.003414, ch.: 0.200000, time: 1.110170
+State solver:  iter: 2, rerr.: 3.387994e-06, time: 0.514498
+PDEFilter solver:  iter: 7, rerr.: 4.392124e-17, time: 0.035594
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030285
+State solver:  iter: 0, rerr.: 3.387994e-06, time: 0.193140
+State solver:  iter: 0, rerr.: 3.387994e-06, time: 0.193236
+PDEFilter solver:  iter: 6, rerr.: 6.532057e-12, time: 0.034605
+It.: 138, obj.: 1.446097, g[0]: 0.003416, ch.: 0.191866, time: 1.115171
+State solver:  iter: 2, rerr.: 3.431731e-06, time: 0.513273
+PDEFilter solver:  iter: 7, rerr.: 4.391836e-17, time: 0.035676
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030246
+State solver:  iter: 0, rerr.: 3.431731e-06, time: 0.192853
+State solver:  iter: 0, rerr.: 3.431731e-06, time: 0.193048
+PDEFilter solver:  iter: 6, rerr.: 6.528187e-12, time: 0.031017
+It.: 139, obj.: 1.446057, g[0]: 0.003419, ch.: 0.183094, time: 1.110365
+State solver:  iter: 2, rerr.: 4.036157e-06, time: 0.513896
+PDEFilter solver:  iter: 7, rerr.: 4.391526e-17, time: 0.035549
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030217
+State solver:  iter: 0, rerr.: 4.036157e-06, time: 0.193006
+State solver:  iter: 0, rerr.: 4.036157e-06, time: 0.193097
+PDEFilter solver:  iter: 6, rerr.: 6.524655e-12, time: 0.030854
+It.: 140, obj.: 1.446009, g[0]: 0.003424, ch.: 0.190594, time: 1.110488
+State solver:  iter: 2, rerr.: 3.895528e-06, time: 0.514154
+PDEFilter solver:  iter: 7, rerr.: 4.391210e-17, time: 0.035647
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030249
+State solver:  iter: 0, rerr.: 3.895528e-06, time: 0.193053
+State solver:  iter: 0, rerr.: 3.895528e-06, time: 0.192856
+PDEFilter solver:  iter: 6, rerr.: 6.519057e-12, time: 0.030804
+It.: 141, obj.: 1.445955, g[0]: 0.003430, ch.: 0.192739, time: 1.111840
+State solver:  iter: 2, rerr.: 3.946143e-06, time: 0.513651
+PDEFilter solver:  iter: 7, rerr.: 4.390858e-17, time: 0.035814
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.031488
+State solver:  iter: 0, rerr.: 3.946143e-06, time: 0.193188
+State solver:  iter: 0, rerr.: 3.946143e-06, time: 0.193088
+PDEFilter solver:  iter: 6, rerr.: 6.514267e-12, time: 0.030835
+It.: 142, obj.: 1.445901, g[0]: 0.003433, ch.: 0.200000, time: 1.112545
+State solver:  iter: 2, rerr.: 3.951540e-06, time: 0.513548
+PDEFilter solver:  iter: 7, rerr.: 4.390532e-17, time: 0.035720
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030407
+State solver:  iter: 0, rerr.: 3.951540e-06, time: 0.192838
+State solver:  iter: 0, rerr.: 3.951540e-06, time: 0.192977
+PDEFilter solver:  iter: 6, rerr.: 6.509809e-12, time: 0.030809
+It.: 143, obj.: 1.445857, g[0]: 0.003437, ch.: 0.200000, time: 1.110652
+State solver:  iter: 2, rerr.: 3.721594e-06, time: 0.513995
+PDEFilter solver:  iter: 7, rerr.: 4.390203e-17, time: 0.035832
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030289
+State solver:  iter: 0, rerr.: 3.721594e-06, time: 0.192930
+State solver:  iter: 0, rerr.: 3.721594e-06, time: 0.192961
+PDEFilter solver:  iter: 6, rerr.: 6.506859e-12, time: 0.030689
+It.: 144, obj.: 1.445811, g[0]: 0.003440, ch.: 0.200000, time: 1.110331
+State solver:  iter: 2, rerr.: 3.832159e-06, time: 0.513769
+PDEFilter solver:  iter: 7, rerr.: 4.389858e-17, time: 0.035656
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030186
+State solver:  iter: 0, rerr.: 3.832159e-06, time: 0.192986
+State solver:  iter: 0, rerr.: 3.832159e-06, time: 0.192804
+PDEFilter solver:  iter: 6, rerr.: 6.504746e-12, time: 0.030900
+It.: 145, obj.: 1.445774, g[0]: 0.003440, ch.: 0.191612, time: 1.110206
+State solver:  iter: 2, rerr.: 3.871500e-06, time: 0.513583
+PDEFilter solver:  iter: 7, rerr.: 4.389507e-17, time: 0.035699
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030191
+State solver:  iter: 0, rerr.: 3.871500e-06, time: 0.193142
+State solver:  iter: 0, rerr.: 3.871500e-06, time: 0.192998
+PDEFilter solver:  iter: 6, rerr.: 6.502741e-12, time: 0.030868
+It.: 146, obj.: 1.445736, g[0]: 0.003440, ch.: 0.200000, time: 1.109992
+State solver:  iter: 2, rerr.: 3.587778e-06, time: 0.514165
+PDEFilter solver:  iter: 7, rerr.: 4.389191e-17, time: 0.035754
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030156
+State solver:  iter: 0, rerr.: 3.587778e-06, time: 0.193210
+State solver:  iter: 0, rerr.: 3.587778e-06, time: 0.192970
+PDEFilter solver:  iter: 6, rerr.: 6.500644e-12, time: 0.031054
+It.: 147, obj.: 1.445704, g[0]: 0.003439, ch.: 0.167711, time: 1.111244
+State solver:  iter: 2, rerr.: 3.498042e-06, time: 0.513888
+PDEFilter solver:  iter: 7, rerr.: 4.388904e-17, time: 0.035683
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030169
+State solver:  iter: 0, rerr.: 3.498042e-06, time: 0.192902
+State solver:  iter: 0, rerr.: 3.498042e-06, time: 0.193187
+PDEFilter solver:  iter: 6, rerr.: 6.498263e-12, time: 0.030716
+It.: 148, obj.: 1.445683, g[0]: 0.003436, ch.: 0.175793, time: 1.111350
+State solver:  iter: 2, rerr.: 3.466320e-06, time: 0.514191
+PDEFilter solver:  iter: 7, rerr.: 4.388596e-17, time: 0.035648
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030409
+State solver:  iter: 0, rerr.: 3.466320e-06, time: 0.193201
+State solver:  iter: 0, rerr.: 3.466320e-06, time: 0.193058
+PDEFilter solver:  iter: 6, rerr.: 6.494990e-12, time: 0.030760
+It.: 149, obj.: 1.445656, g[0]: 0.003433, ch.: 0.166190, time: 1.111392
+State solver:  iter: 2, rerr.: 3.410818e-06, time: 0.513826
+PDEFilter solver:  iter: 7, rerr.: 4.388275e-17, time: 0.035624
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030251
+State solver:  iter: 0, rerr.: 3.410818e-06, time: 0.192992
+State solver:  iter: 0, rerr.: 3.410818e-06, time: 0.193217
+PDEFilter solver:  iter: 6, rerr.: 6.492315e-12, time: 0.030594
+It.: 150, obj.: 1.445636, g[0]: 0.003425, ch.: 0.200000, time: 1.110217
+State solver:  iter: 2, rerr.: 3.718451e-06, time: 0.513801
+PDEFilter solver:  iter: 7, rerr.: 4.387937e-17, time: 0.035676
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030287
+State solver:  iter: 0, rerr.: 3.718451e-06, time: 0.192817
+State solver:  iter: 0, rerr.: 3.718451e-06, time: 0.192857
+PDEFilter solver:  iter: 6, rerr.: 6.490420e-12, time: 0.030710
+It.: 151, obj.: 1.445619, g[0]: 0.003417, ch.: 0.181167, time: 1.109604
+State solver:  iter: 2, rerr.: 3.961484e-06, time: 0.513913
+PDEFilter solver:  iter: 7, rerr.: 4.387563e-17, time: 0.035632
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030097
+State solver:  iter: 0, rerr.: 3.961484e-06, time: 0.193005
+State solver:  iter: 0, rerr.: 3.961484e-06, time: 0.193054
+PDEFilter solver:  iter: 6, rerr.: 6.488839e-12, time: 0.030875
+It.: 152, obj.: 1.445602, g[0]: 0.003406, ch.: 0.170133, time: 1.110151
+State solver:  iter: 2, rerr.: 4.255668e-06, time: 0.514007
+PDEFilter solver:  iter: 7, rerr.: 4.387184e-17, time: 0.035613
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030189
+State solver:  iter: 0, rerr.: 4.255668e-06, time: 0.192979
+State solver:  iter: 0, rerr.: 4.255668e-06, time: 0.193657
+PDEFilter solver:  iter: 6, rerr.: 6.488892e-12, time: 0.030706
+It.: 153, obj.: 1.445588, g[0]: 0.003396, ch.: 0.183763, time: 1.110778
+State solver:  iter: 2, rerr.: 4.460392e-06, time: 0.513289
+PDEFilter solver:  iter: 7, rerr.: 4.386794e-17, time: 0.035643
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030160
+State solver:  iter: 0, rerr.: 4.460392e-06, time: 0.193141
+State solver:  iter: 0, rerr.: 4.460392e-06, time: 0.192742
+PDEFilter solver:  iter: 6, rerr.: 6.489920e-12, time: 0.030849
+It.: 154, obj.: 1.445570, g[0]: 0.003384, ch.: 0.194112, time: 1.109732
+State solver:  iter: 2, rerr.: 4.653199e-06, time: 0.514088
+PDEFilter solver:  iter: 7, rerr.: 4.386412e-17, time: 0.035733
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030184
+State solver:  iter: 0, rerr.: 4.653199e-06, time: 0.193092
+State solver:  iter: 0, rerr.: 4.653199e-06, time: 0.192989
+PDEFilter solver:  iter: 6, rerr.: 6.491460e-12, time: 0.030753
+It.: 155, obj.: 1.445565, g[0]: 0.003369, ch.: 0.174854, time: 1.110752
+State solver:  iter: 2, rerr.: 3.695262e-06, time: 0.513742
+PDEFilter solver:  iter: 7, rerr.: 4.386038e-17, time: 0.035721
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030217
+State solver:  iter: 0, rerr.: 3.695262e-06, time: 0.193021
+State solver:  iter: 0, rerr.: 3.695262e-06, time: 0.193072
+PDEFilter solver:  iter: 6, rerr.: 6.490607e-12, time: 0.030835
+It.: 156, obj.: 1.445561, g[0]: 0.003356, ch.: 0.191050, time: 1.111229
+State solver:  iter: 2, rerr.: 3.448579e-06, time: 0.513982
+PDEFilter solver:  iter: 7, rerr.: 4.385669e-17, time: 0.035683
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030352
+State solver:  iter: 0, rerr.: 3.448579e-06, time: 0.193164
+State solver:  iter: 0, rerr.: 3.448579e-06, time: 0.193040
+PDEFilter solver:  iter: 6, rerr.: 6.491056e-12, time: 0.030674
+It.: 157, obj.: 1.445555, g[0]: 0.003342, ch.: 0.175152, time: 1.110973
+State solver:  iter: 2, rerr.: 3.190796e-06, time: 0.514197
+PDEFilter solver:  iter: 7, rerr.: 4.385351e-17, time: 0.035744
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030444
+State solver:  iter: 0, rerr.: 3.190796e-06, time: 0.192982
+State solver:  iter: 0, rerr.: 3.190796e-06, time: 0.193074
+PDEFilter solver:  iter: 6, rerr.: 6.492380e-12, time: 0.030853
+It.: 158, obj.: 1.445562, g[0]: 0.003327, ch.: 0.193255, time: 1.111736
+State solver:  iter: 2, rerr.: 2.952067e-06, time: 0.513968
+PDEFilter solver:  iter: 7, rerr.: 4.385119e-17, time: 0.036002
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030329
+State solver:  iter: 0, rerr.: 2.952067e-06, time: 0.192937
+State solver:  iter: 0, rerr.: 2.952067e-06, time: 0.193139
+PDEFilter solver:  iter: 6, rerr.: 6.492507e-12, time: 0.030776
+It.: 159, obj.: 1.445597, g[0]: 0.003312, ch.: 0.179555, time: 1.110479
+State solver:  iter: 2, rerr.: 2.894699e-06, time: 0.513472
+PDEFilter solver:  iter: 7, rerr.: 4.384898e-17, time: 0.035635
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030265
+State solver:  iter: 0, rerr.: 2.894699e-06, time: 0.193085
+State solver:  iter: 0, rerr.: 2.894699e-06, time: 0.192899
+PDEFilter solver:  iter: 6, rerr.: 6.491251e-12, time: 0.030769
+It.: 160, obj.: 1.445625, g[0]: 0.003299, ch.: 0.177726, time: 1.109758
+State solver:  iter: 2, rerr.: 2.787845e-06, time: 0.513764
+PDEFilter solver:  iter: 7, rerr.: 4.384680e-17, time: 0.035563
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030212
+State solver:  iter: 0, rerr.: 2.787845e-06, time: 0.193005
+State solver:  iter: 0, rerr.: 2.787845e-06, time: 0.192997
+PDEFilter solver:  iter: 6, rerr.: 6.489285e-12, time: 0.030872
+It.: 161, obj.: 1.445651, g[0]: 0.003285, ch.: 0.180506, time: 1.110645
+State solver:  iter: 2, rerr.: 3.060275e-06, time: 0.513733
+PDEFilter solver:  iter: 7, rerr.: 4.384461e-17, time: 0.035696
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030265
+State solver:  iter: 0, rerr.: 3.060275e-06, time: 0.192842
+State solver:  iter: 0, rerr.: 3.060275e-06, time: 0.192595
+PDEFilter solver:  iter: 6, rerr.: 6.488160e-12, time: 0.030747
+It.: 162, obj.: 1.445665, g[0]: 0.003271, ch.: 0.183425, time: 1.110871
+State solver:  iter: 2, rerr.: 3.312512e-06, time: 0.513369
+PDEFilter solver:  iter: 7, rerr.: 4.384253e-17, time: 0.035621
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030130
+State solver:  iter: 0, rerr.: 3.312512e-06, time: 0.193046
+State solver:  iter: 0, rerr.: 3.312512e-06, time: 0.192763
+PDEFilter solver:  iter: 6, rerr.: 6.487391e-12, time: 0.030738
+It.: 163, obj.: 1.445677, g[0]: 0.003257, ch.: 0.181193, time: 1.110042
+State solver:  iter: 2, rerr.: 3.167623e-06, time: 0.513434
+PDEFilter solver:  iter: 7, rerr.: 4.384086e-17, time: 0.035719
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030260
+State solver:  iter: 0, rerr.: 3.167623e-06, time: 0.193020
+State solver:  iter: 0, rerr.: 3.167623e-06, time: 0.192848
+PDEFilter solver:  iter: 6, rerr.: 6.487803e-12, time: 0.030774
+It.: 164, obj.: 1.445706, g[0]: 0.003240, ch.: 0.200000, time: 1.109815
+State solver:  iter: 2, rerr.: 3.268079e-06, time: 0.513717
+PDEFilter solver:  iter: 7, rerr.: 4.383918e-17, time: 0.035691
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030211
+State solver:  iter: 0, rerr.: 3.268079e-06, time: 0.193034
+State solver:  iter: 0, rerr.: 3.268079e-06, time: 0.192866
+PDEFilter solver:  iter: 6, rerr.: 6.487134e-12, time: 0.030856
+It.: 165, obj.: 1.445727, g[0]: 0.003224, ch.: 0.200000, time: 1.110039
+State solver:  iter: 2, rerr.: 3.205872e-06, time: 0.514076
+PDEFilter solver:  iter: 7, rerr.: 4.383806e-17, time: 0.035654
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030216
+State solver:  iter: 0, rerr.: 3.205872e-06, time: 0.192991
+State solver:  iter: 0, rerr.: 3.205872e-06, time: 0.192921
+PDEFilter solver:  iter: 6, rerr.: 6.487366e-12, time: 0.030715
+It.: 166, obj.: 1.445752, g[0]: 0.003209, ch.: 0.200000, time: 1.110513
+State solver:  iter: 2, rerr.: 3.012567e-06, time: 0.513680
+PDEFilter solver:  iter: 7, rerr.: 4.383689e-17, time: 0.035770
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030265
+State solver:  iter: 0, rerr.: 3.012567e-06, time: 0.193366
+State solver:  iter: 0, rerr.: 3.012567e-06, time: 0.193300
+PDEFilter solver:  iter: 6, rerr.: 6.486559e-12, time: 0.030956
+It.: 167, obj.: 1.445782, g[0]: 0.003196, ch.: 0.168735, time: 1.111299
+State solver:  iter: 2, rerr.: 2.580976e-06, time: 0.513965
+PDEFilter solver:  iter: 7, rerr.: 4.383562e-17, time: 0.035683
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030153
+State solver:  iter: 0, rerr.: 2.580976e-06, time: 0.193119
+State solver:  iter: 0, rerr.: 2.580976e-06, time: 0.193018
+PDEFilter solver:  iter: 6, rerr.: 6.486154e-12, time: 0.030656
+It.: 168, obj.: 1.445820, g[0]: 0.003183, ch.: 0.166794, time: 1.115923
+State solver:  iter: 2, rerr.: 2.373723e-06, time: 0.533136
+PDEFilter solver:  iter: 7, rerr.: 4.383428e-17, time: 0.036928
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.031325
+State solver:  iter: 0, rerr.: 2.373723e-06, time: 0.196460
+State solver:  iter: 0, rerr.: 2.373723e-06, time: 0.196391
+PDEFilter solver:  iter: 6, rerr.: 6.485400e-12, time: 0.031735
+It.: 169, obj.: 1.445867, g[0]: 0.003170, ch.: 0.176382, time: 1.211600
+State solver:  iter: 2, rerr.: 2.411730e-06, time: 0.533742
+PDEFilter solver:  iter: 7, rerr.: 4.383243e-17, time: 0.036928
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.031606
+State solver:  iter: 0, rerr.: 2.411730e-06, time: 0.196806
+State solver:  iter: 0, rerr.: 2.411730e-06, time: 0.196277
+PDEFilter solver:  iter: 6, rerr.: 6.483849e-12, time: 0.031708
+It.: 170, obj.: 1.445901, g[0]: 0.003156, ch.: 0.200000, time: 1.212876
+State solver:  iter: 2, rerr.: 2.559502e-06, time: 0.533615
+PDEFilter solver:  iter: 7, rerr.: 4.383099e-17, time: 0.036785
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.031328
+State solver:  iter: 0, rerr.: 2.559502e-06, time: 0.192992
+State solver:  iter: 0, rerr.: 2.559502e-06, time: 0.192968
+PDEFilter solver:  iter: 6, rerr.: 6.481640e-12, time: 0.030847
+It.: 171, obj.: 1.445934, g[0]: 0.003143, ch.: 0.200000, time: 1.168464
+State solver:  iter: 2, rerr.: 2.662939e-06, time: 0.513067
+PDEFilter solver:  iter: 7, rerr.: 4.382964e-17, time: 0.035703
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030197
+State solver:  iter: 0, rerr.: 2.662939e-06, time: 0.193174
+State solver:  iter: 0, rerr.: 2.662939e-06, time: 0.193037
+PDEFilter solver:  iter: 6, rerr.: 6.479672e-12, time: 0.030802
+It.: 172, obj.: 1.445962, g[0]: 0.003129, ch.: 0.200000, time: 1.110089
+State solver:  iter: 2, rerr.: 2.665695e-06, time: 0.513642
+PDEFilter solver:  iter: 7, rerr.: 4.382820e-17, time: 0.035497
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030333
+State solver:  iter: 0, rerr.: 2.665695e-06, time: 0.192992
+State solver:  iter: 0, rerr.: 2.665695e-06, time: 0.192805
+PDEFilter solver:  iter: 6, rerr.: 6.477748e-12, time: 0.030814
+It.: 173, obj.: 1.445992, g[0]: 0.003114, ch.: 0.200000, time: 1.110307
+State solver:  iter: 2, rerr.: 2.592587e-06, time: 0.513562
+PDEFilter solver:  iter: 7, rerr.: 4.382655e-17, time: 0.035617
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030430
+State solver:  iter: 0, rerr.: 2.592587e-06, time: 0.193273
+State solver:  iter: 0, rerr.: 2.592587e-06, time: 0.193087
+PDEFilter solver:  iter: 6, rerr.: 6.476541e-12, time: 0.030794
+It.: 174, obj.: 1.446026, g[0]: 0.003098, ch.: 0.200000, time: 1.111124
+State solver:  iter: 2, rerr.: 2.565385e-06, time: 0.513560
+PDEFilter solver:  iter: 7, rerr.: 4.382464e-17, time: 0.035616
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030255
+State solver:  iter: 0, rerr.: 2.565385e-06, time: 0.193126
+State solver:  iter: 0, rerr.: 2.565385e-06, time: 0.192977
+PDEFilter solver:  iter: 6, rerr.: 6.475823e-12, time: 0.030798
+It.: 175, obj.: 1.446063, g[0]: 0.003079, ch.: 0.200000, time: 1.110508
+State solver:  iter: 2, rerr.: 2.337866e-06, time: 0.513955
+PDEFilter solver:  iter: 7, rerr.: 4.382288e-17, time: 0.035706
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030510
+State solver:  iter: 0, rerr.: 2.337866e-06, time: 0.193062
+State solver:  iter: 0, rerr.: 2.337866e-06, time: 0.192775
+PDEFilter solver:  iter: 6, rerr.: 6.475413e-12, time: 0.030806
+It.: 176, obj.: 1.446105, g[0]: 0.003062, ch.: 0.200000, time: 1.110837
+State solver:  iter: 2, rerr.: 2.282031e-06, time: 0.514303
+PDEFilter solver:  iter: 7, rerr.: 4.382132e-17, time: 0.035609
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030264
+State solver:  iter: 0, rerr.: 2.282031e-06, time: 0.193192
+State solver:  iter: 0, rerr.: 2.282031e-06, time: 0.193043
+PDEFilter solver:  iter: 6, rerr.: 6.476802e-12, time: 0.030786
+It.: 177, obj.: 1.446142, g[0]: 0.003049, ch.: 0.200000, time: 1.111636
+State solver:  iter: 2, rerr.: 2.120989e-06, time: 0.512892
+PDEFilter solver:  iter: 7, rerr.: 4.381910e-17, time: 0.035741
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030221
+State solver:  iter: 0, rerr.: 2.120989e-06, time: 0.193055
+State solver:  iter: 0, rerr.: 2.120989e-06, time: 0.193033
+PDEFilter solver:  iter: 6, rerr.: 6.476869e-12, time: 0.030670
+It.: 178, obj.: 1.446175, g[0]: 0.003032, ch.: 0.182394, time: 1.109471
+State solver:  iter: 2, rerr.: 2.282289e-06, time: 0.513940
+PDEFilter solver:  iter: 7, rerr.: 4.381690e-17, time: 0.035658
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030526
+State solver:  iter: 0, rerr.: 2.282289e-06, time: 0.193018
+State solver:  iter: 0, rerr.: 2.282289e-06, time: 0.192891
+PDEFilter solver:  iter: 6, rerr.: 6.477598e-12, time: 0.030866
+It.: 179, obj.: 1.446212, g[0]: 0.003015, ch.: 0.200000, time: 1.111371
+State solver:  iter: 2, rerr.: 2.436552e-06, time: 0.514073
+PDEFilter solver:  iter: 7, rerr.: 4.381515e-17, time: 0.035714
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030181
+State solver:  iter: 0, rerr.: 2.436552e-06, time: 0.192955
+State solver:  iter: 0, rerr.: 2.436552e-06, time: 0.192915
+PDEFilter solver:  iter: 6, rerr.: 6.477349e-12, time: 0.030717
+It.: 180, obj.: 1.446253, g[0]: 0.002999, ch.: 0.200000, time: 1.110639
+State solver:  iter: 2, rerr.: 2.616917e-06, time: 0.513099
+PDEFilter solver:  iter: 7, rerr.: 4.381389e-17, time: 0.035835
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030199
+State solver:  iter: 0, rerr.: 2.616917e-06, time: 0.193211
+State solver:  iter: 0, rerr.: 2.616917e-06, time: 0.192973
+PDEFilter solver:  iter: 6, rerr.: 6.478041e-12, time: 0.030769
+It.: 181, obj.: 1.446297, g[0]: 0.002987, ch.: 0.200000, time: 1.110329
+State solver:  iter: 2, rerr.: 3.692102e-06, time: 0.514017
+PDEFilter solver:  iter: 7, rerr.: 4.381255e-17, time: 0.035614
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030235
+State solver:  iter: 0, rerr.: 3.692102e-06, time: 0.193471
+State solver:  iter: 0, rerr.: 3.692102e-06, time: 0.193008
+PDEFilter solver:  iter: 6, rerr.: 6.480077e-12, time: 0.030748
+It.: 182, obj.: 1.446336, g[0]: 0.002976, ch.: 0.183390, time: 1.110808
+State solver:  iter: 2, rerr.: 5.121061e-06, time: 0.513557
+PDEFilter solver:  iter: 7, rerr.: 4.381117e-17, time: 0.035648
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030278
+State solver:  iter: 0, rerr.: 5.121061e-06, time: 0.192948
+State solver:  iter: 0, rerr.: 5.121061e-06, time: 0.192992
+PDEFilter solver:  iter: 6, rerr.: 6.482808e-12, time: 0.030794
+It.: 183, obj.: 1.446368, g[0]: 0.002968, ch.: 0.200000, time: 1.109950
+State solver:  iter: 2, rerr.: 6.372441e-06, time: 0.513666
+PDEFilter solver:  iter: 7, rerr.: 4.380950e-17, time: 0.035573
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030248
+State solver:  iter: 0, rerr.: 6.372441e-06, time: 0.193142
+State solver:  iter: 0, rerr.: 6.372441e-06, time: 0.192982
+PDEFilter solver:  iter: 6, rerr.: 6.485245e-12, time: 0.030819
+It.: 184, obj.: 1.446387, g[0]: 0.002962, ch.: 0.200000, time: 1.111192
+State solver:  iter: 2, rerr.: 6.383369e-06, time: 0.513796
+PDEFilter solver:  iter: 7, rerr.: 4.380777e-17, time: 0.035657
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030223
+State solver:  iter: 0, rerr.: 6.383369e-06, time: 0.193307
+State solver:  iter: 0, rerr.: 6.383369e-06, time: 0.193409
+PDEFilter solver:  iter: 6, rerr.: 6.487102e-12, time: 0.030847
+It.: 185, obj.: 1.446387, g[0]: 0.002960, ch.: 0.200000, time: 1.111275
+State solver:  iter: 2, rerr.: 5.111740e-06, time: 0.513568
+PDEFilter solver:  iter: 7, rerr.: 4.380590e-17, time: 0.035604
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030169
+State solver:  iter: 0, rerr.: 5.111740e-06, time: 0.192785
+State solver:  iter: 0, rerr.: 5.111740e-06, time: 0.193126
+PDEFilter solver:  iter: 6, rerr.: 6.488454e-12, time: 0.030728
+It.: 186, obj.: 1.446370, g[0]: 0.002959, ch.: 0.200000, time: 1.109701
+State solver:  iter: 2, rerr.: 4.457112e-06, time: 0.513401
+PDEFilter solver:  iter: 7, rerr.: 4.380411e-17, time: 0.035742
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030124
+State solver:  iter: 0, rerr.: 4.457112e-06, time: 0.193270
+State solver:  iter: 0, rerr.: 4.457112e-06, time: 0.192688
+PDEFilter solver:  iter: 6, rerr.: 6.490047e-12, time: 0.030796
+It.: 187, obj.: 1.446344, g[0]: 0.002959, ch.: 0.200000, time: 1.109921
+State solver:  iter: 2, rerr.: 4.692311e-06, time: 0.513700
+PDEFilter solver:  iter: 7, rerr.: 4.380293e-17, time: 0.035630
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030247
+State solver:  iter: 0, rerr.: 4.692311e-06, time: 0.193072
+State solver:  iter: 0, rerr.: 4.692311e-06, time: 0.193112
+PDEFilter solver:  iter: 6, rerr.: 6.491751e-12, time: 0.030871
+It.: 188, obj.: 1.446320, g[0]: 0.002963, ch.: 0.180548, time: 1.117050
+State solver:  iter: 2, rerr.: 4.983186e-06, time: 0.513850
+PDEFilter solver:  iter: 7, rerr.: 4.380152e-17, time: 0.035770
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030176
+State solver:  iter: 0, rerr.: 4.983186e-06, time: 0.193132
+State solver:  iter: 0, rerr.: 4.983186e-06, time: 0.193058
+PDEFilter solver:  iter: 6, rerr.: 6.493466e-12, time: 0.030655
+It.: 189, obj.: 1.446290, g[0]: 0.002967, ch.: 0.195070, time: 1.110658
+State solver:  iter: 2, rerr.: 3.589412e-06, time: 0.513223
+PDEFilter solver:  iter: 7, rerr.: 4.379976e-17, time: 0.035661
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030221
+State solver:  iter: 0, rerr.: 3.589412e-06, time: 0.192729
+State solver:  iter: 0, rerr.: 3.589412e-06, time: 0.192855
+PDEFilter solver:  iter: 6, rerr.: 6.496781e-12, time: 0.030906
+It.: 190, obj.: 1.446250, g[0]: 0.002971, ch.: 0.193608, time: 1.109421
+State solver:  iter: 2, rerr.: 4.335294e-06, time: 0.513833
+PDEFilter solver:  iter: 7, rerr.: 4.379863e-17, time: 0.035543
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030209
+State solver:  iter: 0, rerr.: 4.335294e-06, time: 0.192993
+State solver:  iter: 0, rerr.: 4.335294e-06, time: 0.192889
+PDEFilter solver:  iter: 6, rerr.: 6.500351e-12, time: 0.030676
+It.: 191, obj.: 1.446216, g[0]: 0.002975, ch.: 0.193962, time: 1.109939
+State solver:  iter: 2, rerr.: 4.237790e-06, time: 0.513533
+PDEFilter solver:  iter: 7, rerr.: 4.379760e-17, time: 0.035720
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030272
+State solver:  iter: 0, rerr.: 4.237790e-06, time: 0.192971
+State solver:  iter: 0, rerr.: 4.237790e-06, time: 0.192955
+PDEFilter solver:  iter: 6, rerr.: 6.505267e-12, time: 0.030746
+It.: 192, obj.: 1.446185, g[0]: 0.002979, ch.: 0.180197, time: 1.110471
+State solver:  iter: 2, rerr.: 4.153280e-06, time: 0.513093
+PDEFilter solver:  iter: 7, rerr.: 4.379665e-17, time: 0.035725
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030201
+State solver:  iter: 0, rerr.: 4.153280e-06, time: 0.192950
+State solver:  iter: 0, rerr.: 4.153280e-06, time: 0.192980
+PDEFilter solver:  iter: 6, rerr.: 6.512100e-12, time: 0.030888
+It.: 193, obj.: 1.446159, g[0]: 0.002981, ch.: 0.171006, time: 1.109678
+State solver:  iter: 2, rerr.: 3.788855e-06, time: 0.513639
+PDEFilter solver:  iter: 7, rerr.: 4.379568e-17, time: 0.035601
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030519
+State solver:  iter: 0, rerr.: 3.788855e-06, time: 0.193313
+State solver:  iter: 0, rerr.: 3.788855e-06, time: 0.192905
+PDEFilter solver:  iter: 6, rerr.: 6.518448e-12, time: 0.030762
+It.: 194, obj.: 1.446130, g[0]: 0.002984, ch.: 0.182826, time: 1.111396
+State solver:  iter: 2, rerr.: 4.080470e-06, time: 0.514952
+PDEFilter solver:  iter: 7, rerr.: 4.379473e-17, time: 0.035752
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030260
+State solver:  iter: 0, rerr.: 4.080470e-06, time: 0.192994
+State solver:  iter: 0, rerr.: 4.080470e-06, time: 0.192960
+PDEFilter solver:  iter: 6, rerr.: 6.525191e-12, time: 0.030756
+It.: 195, obj.: 1.446099, g[0]: 0.002988, ch.: 0.168063, time: 1.111769
+State solver:  iter: 2, rerr.: 3.773723e-06, time: 0.513231
+PDEFilter solver:  iter: 7, rerr.: 4.379375e-17, time: 0.035611
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030275
+State solver:  iter: 0, rerr.: 3.773723e-06, time: 0.192856
+State solver:  iter: 0, rerr.: 3.773723e-06, time: 0.192729
+PDEFilter solver:  iter: 6, rerr.: 6.530945e-12, time: 0.030785
+It.: 196, obj.: 1.446073, g[0]: 0.002991, ch.: 0.169295, time: 1.109476
+State solver:  iter: 2, rerr.: 3.423425e-06, time: 0.513947
+PDEFilter solver:  iter: 7, rerr.: 4.379271e-17, time: 0.035620
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030166
+State solver:  iter: 0, rerr.: 3.423425e-06, time: 0.193016
+State solver:  iter: 0, rerr.: 3.423425e-06, time: 0.193146
+PDEFilter solver:  iter: 6, rerr.: 6.536982e-12, time: 0.030696
+It.: 197, obj.: 1.446048, g[0]: 0.002993, ch.: 0.185280, time: 1.110878
+State solver:  iter: 2, rerr.: 3.535354e-06, time: 0.513145
+PDEFilter solver:  iter: 7, rerr.: 4.379164e-17, time: 0.035648
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030282
+State solver:  iter: 0, rerr.: 3.535354e-06, time: 0.193104
+State solver:  iter: 0, rerr.: 3.535354e-06, time: 0.192962
+PDEFilter solver:  iter: 6, rerr.: 6.543199e-12, time: 0.030752
+It.: 198, obj.: 1.446020, g[0]: 0.002998, ch.: 0.176671, time: 1.109557
+State solver:  iter: 2, rerr.: 3.301699e-06, time: 0.513428
+PDEFilter solver:  iter: 7, rerr.: 4.379025e-17, time: 0.035585
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030262
+State solver:  iter: 0, rerr.: 3.301699e-06, time: 0.193040
+State solver:  iter: 0, rerr.: 3.301699e-06, time: 0.192837
+PDEFilter solver:  iter: 6, rerr.: 6.547639e-12, time: 0.030894
+It.: 199, obj.: 1.445989, g[0]: 0.003004, ch.: 0.167839, time: 1.110406
+State solver:  iter: 2, rerr.: 3.173183e-06, time: 0.513856
+PDEFilter solver:  iter: 7, rerr.: 4.378849e-17, time: 0.035580
+PDEFilter solver:  iter: 6, rerr.: 7.746157e-18, time: 0.030215
+State solver:  iter: 0, rerr.: 3.173183e-06, time: 0.193004
+State solver:  iter: 0, rerr.: 3.173183e-06, time: 0.192906
+PDEFilter solver:  iter: 6, rerr.: 6.552227e-12, time: 0.030778
+It.: 200, obj.: 1.445956, g[0]: 0.003010, ch.: 0.170978, time: 1.110433
