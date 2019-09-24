@@ -52,14 +52,24 @@ so if you want 4x1x1 domain, one should change xc[0] = 0, xc[1]=4, xc[2]=0, xc[3
 One could repeat the same action done to change domain's size but instead modify the meat code :// SET DEFAULTS for optimization problems 
 
 # How to benchmark 3D topopogy optimization problems on HPC.
-To benchmark 3D topopogy optimization problems, one should know how to change problems settings :
+To benchmark 3D topopogy optimization problems, one should know how to change problems settings in Topopt Petsc:
 1. One should know how to change problem.
 2. one should know how to change domain's size, filter's size and volume fraction.
-3. One should know how to change solver. 
+3. One should know how to change a solver. 
 4. And one should know how to build up post-treatment or processing on matlab using performances profiles and data profiles.
 
 We detail below one by one, how to achieve this goal.
+1. One should go to line above : # How do you change a problem
+2. To change domain's size one should go to linev above : # How do you change domain's size ?.
+But to change filter's size and volume fraction, one should use the script : topopt1.slurm
+To use the script one should go .... and then one should modify the setting acordingly.
+3. To change a solver, ie MMA (default) to GCMMA or  to OC, one should go to MMA class and replace the class with GCMMA or OC. 
+To use the GCMMA or OC class, one should go to ....
+4. To build up post-treatement or processing on matlab, one should go to .....
 
+# How to use the script.slurm to generate 3D topology optimization problems.
+Inside the script topopt1.slurm :
+1.
 
 
 
