@@ -34,8 +34,24 @@ using sensitivity filter with radius 0.08 and a volume fraction of 0.12 percent.
 The contrast between solid and void is set to 1e+9, the test convergence is set to ||x_k -x_{k+1}|| L.T 0.01 
 or  a maximum of 400 design cycles.
 
-# How do you change a problem, ie cantilever to wheel to michell?.
-One should 
+# How do you change a problem, ie cantilever to wheel or wheel to michell?.
+One should go the source file, LinearElasticity.cc (LinearElasticity class) and inside the function : SetUpLoadAndBC(*),
+and to the meat code : // Set the values
+To change default problem to a 3D wheel problem, one shoud go to .....
+We do have 3D wheel problem, 3D michell problem, 3D cantilever (by default). 
+And of course, one can also build his own new problem by changing //Set the values accordingly to obtain a new problem,
+ie 3D MBB.
+
+# How do you change domain's size ?.
+One should go the source file, TopOpt.cc (TopOpt class) and inside the function : SetUp(*), 
+and to the meat code : // SET DEFAULTS for FE mesh and levels for MG solver
+For example : xc[0] = xmin, xc[1]=xmax, xc[2]=ymin, xc[3]=ymax, xc[4]=zmin, xc[5]=zmax, 
+so if you want 4x1x1 domain, one should change xc[0] = 0, xc[1]=4, xc[2]=0, xc[3]=1, xc[4]=0, xc[5]=1
+
+# How do you change filter's size and volume fraction?!
+One could repeat the same action done to change domain's size but instead modify the meat code :// SET DEFAULTS for optimization problems 
+
+ 
 
 
 
