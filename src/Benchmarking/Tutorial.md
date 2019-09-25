@@ -101,7 +101,7 @@ You can also use WINSCP (software already install on your ICA's computer).
 
 
 # For futur work
-1. One should consider using an algorithm to generate automatics problems setting
+1. One should consider using an algorithm to generate problems setting
 when using topopt1.slurm.
 2. One could find in src/Makefile/makefile_nlopt sqp algorithm in nlopt with a makefile and source files to work with in other 
 to change solver in topopt Petsc. The code isn't fully working but it compiles. 
