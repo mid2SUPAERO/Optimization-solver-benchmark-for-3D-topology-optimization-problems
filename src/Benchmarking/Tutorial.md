@@ -31,15 +31,15 @@ or mpirun -np 2 ./topopt
 
 # How to vizualize the optimal design.
 To vizualize the optimize design, one should :
-1. Type cd .. to be place outside ./topopt
-2. Type cp Topopt/*.py /tmpdir/name/Topopt-637443/, 
-where Topopt-614252 is for example your outputdata, name is your login to connect on calmip.
+1. Type cd .. (to be place outside ./topopt)
+2. Type cp Topopt/*.py /tmpdir/name/Topopt-637443/ 
+(where Topopt-614252 is for example your outputdata, name is your login to connect on calmip).
 3. Type cd /tmpdir/name/Topopt-637443/
-4. Type python bin2vtu.py 15, 
-where 15 is for example you only want 1 15 30 45 55 ... outputdata. 
+4. Type python bin2vtu.py 15 
+(where 15 is for example you only want 1 15 30 45 55 ... outputdata). 
 5. you can now go to /tmpdir/name/Topopt-637443/ and extract the file .vtu 
-6. open Paraview and open file .vtu to be vizualize.
-7. press the button apply then on options last row press Threshold and then button apply
+6. open Paraview and open file .vtu to vizualize.
+7. press the button apply then In the upper right corner and last row, press Threshold and press button apply
 8. choose scalars = xPhys or x (depending on what you want) fix your minimum between 0.1 and 0.9 and press button apply
 9. if you want color apply coloring by choosing again xPhys.
 
