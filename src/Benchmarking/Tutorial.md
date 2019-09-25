@@ -25,8 +25,8 @@ That means one can visualize the optimize design via Paraview.
 First and foremost, you will need a makefile script to run it on the terminal. Don't worry, we already have one. 
 To get access to the makefile, one should go back to src/Makefile/ directory
 # How to use makefile!
-One should first type on terminal : cd topopt/ to be place in the Topopt petsc files and the type : make or make ./topopt 
-to compile the code. To run the code on two processors using the default settings, one  should type :  mpiexec -np 2 ./topopt 
+One should first type on terminal : cd topopt/ (to be place in the Topopt petsc files) and then type : make or make ./topopt 
+(to compile the code). To run the code on two processors using the default settings, one  should type :  mpiexec -np 2 ./topopt 
 or mpirun -np 2 ./topopt
 
 # How to vizualize the optimal design.
