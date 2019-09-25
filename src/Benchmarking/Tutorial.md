@@ -32,10 +32,10 @@ or mpirun -np 2 ./topopt
 # How to vizualize the optimal design.
 To vizualize the optimize design, one should :
 1. Type cd .. to be place outside ./topopt
-2. Type cp Topopt/*.py /tmpdir/name/Topopt-637443/ 
+2. Type cp Topopt/*.py /tmpdir/name/Topopt-637443/, 
 where Topopt-614252 is for example your outputdata, name is your login to connect on calmip.
 3. Type cd /tmpdir/name/Topopt-637443/
-4. Type python bin2vtu.py 15 
+4. Type python bin2vtu.py 15, 
 where 15 is for example you only want 1 15 30 45 55 ... outputdata. 
 5. you can now go to /tmpdir/name/Topopt-637443/ and extract the file .vtu 
 6. open Paraview and open file .vtu to be vizualize.
