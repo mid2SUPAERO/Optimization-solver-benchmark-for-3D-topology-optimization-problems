@@ -95,8 +95,8 @@ And for a simpler size, ie less than 5 million ddl, one should ask for :
 2. #SBATCH --ntasks=72
 3. #SBATCH --ntasks-per-node=36
 4. #SBATCH --threads-per-core=1
-The outputdata files are written outside ./topopt, in the file : /tmpdir/agyekum/ .
-To get to file from ./topopt, one should type on terminal : cd .. then cd /tmpdir/agyekum/ .
+The outputdata files are written outside ./topopt, in the file : /tmpdir/name/ .
+To get the file from ./topopt, one should type on terminal : cd .. then cd /tmpdir/name/ .
 You can also use WINSCP (software already install on your ICA's computer).
 
 
