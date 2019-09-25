@@ -52,6 +52,7 @@ or  a maximum of 400 design cycles.
 # How do you change a problem, ie cantilever to wheel or wheel to michell?.
 One should go the source file, LinearElasticity.cc (LinearElasticity class) and inside the function : SetUpLoadAndBC(*),
 and to the meat code : // Set the values
+
 To change default problem to a 3D wheel problem, one shoud go to src/Examples_to_Change_probs directory.
 We do have 3D wheel problem, 3D michell problem, 3D cantilever (by default). 
 And of course, one can also build his own new problem by changing //Set the values accordingly to obtain a new problem,
@@ -60,6 +61,7 @@ ie 3D MBB.
 # How do you change domain's size ?.
 One should go the source file, TopOpt.cc (TopOpt class) and inside the function : SetUp(*), 
 and to the meat code : // SET DEFAULTS for FE mesh and levels for MG solver
+
 For example : xc[0] = xmin, xc[1]=xmax, xc[2]=ymin, xc[3]=ymax, xc[4]=zmin, xc[5]=zmax, 
 so if you want 4x1x1 domain, one should change xc[0] = 0, xc[1]=4, xc[2]=0, xc[3]=1, xc[4]=0, xc[5]=1
 
