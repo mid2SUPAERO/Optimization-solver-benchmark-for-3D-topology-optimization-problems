@@ -41,7 +41,7 @@ To vizualize the optimize design, one should :
 6. open Paraview and open file .vtu to vizualize.
 7. press the button apply then In the upper right corner and last row, press Threshold and press button apply
 8. choose scalars = xPhys or x (depending on what you want) fix your minimum between 0.1 and 0.9 and press button apply
-9. if you want color apply coloring by choosing again xPhys.
+9. if you want color then apply coloring by choosing again xPhys.
 
 # Default settings :
 The default problem is the minimum compliance cantilever problem as described in Aage and Lazarov (2013) on a 2x1x1 domain,
