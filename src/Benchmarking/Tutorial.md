@@ -79,8 +79,10 @@ We detail below one by one, how to achieve this goal.
 1. One should go to line above : # How do you change a problem
 2. To change domain's size one should go to line above : # How do you change domain's size ?.
 But to change filter's size and volume fraction, one should use the script : topopt1.slurm
+
 To use the script one should go src/Makefile and then one should modify the setting acordingly.
 3. To change a solver, ie MMA (default) to GCMMA or  to OC, one should go to MMA class and replace the class with GCMMA or OC. 
+
 To use the GCMMA or OC class, one should go to src/
 4. To build up post-treatement or processing on matlab, one should go to src/Benchmarking and select benchmarking.m
 
@@ -97,8 +99,10 @@ And for a simpler size, ie less than 5 million ddl, one should ask for :
 3. #SBATCH --ntasks-per-node=36
 4. #SBATCH --threads-per-core=1
 The outputdata files are written outside ./topopt, in the file : /tmpdir/agyekum/
+
 To get to file from ./topopt, one should type on terminal : cd .. then cd /tmpdir/agyekum/
-you can also use WINSCP (software already install on your ICA's computer).
+
+You can also use WINSCP (software already install on your ICA's computer).
 
 
 # For futur work
