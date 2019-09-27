@@ -1,7 +1,7 @@
 # Optimization-solver-benchmark-for-3D-topology-optimization-problems
 #
   
-The purpose of this internship is to benchmark different optimization solvers when applied to various ﬁnite element based structural topology optimization problems. An extensive and representative library of minimum compliance minimum compliance, and minimum volume problem instances for different sizes is developed for this benchmarking. The problems are based on a material interpolation scheme combined with a PDE ﬁlter. 
+The purpose of this internship is to benchmark different optimization solvers when applied to various ﬁnite element based structural topology optimization problems. An extensive and representative library of minimum compliance, and minimum volume problem instances for different sizes is developed for this benchmarking. The problems are based on a material interpolation scheme combined with a PDE ﬁlter. 
 Different optimization solvers including Optimality Criteria (OC), the Method of Moving Asymptotes (MMA) and its globally convergent version GCMMA, the interior point solvers in IPOPT and the sequential quadratic programming method in NLOPT, are benchmarked on the library using performance proﬁles and data profiles.  Whenever possible the methods are applied to nested formulations of the problem.
 
 
